@@ -47,5 +47,9 @@
         "tabWidth": 4
     },
     "author": "Reece Dunham",
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "engines": {
+        "yarn": ">1.17.0",
+        "node": ">=10.0.0"
+    }
 }
