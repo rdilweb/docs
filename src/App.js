@@ -18,13 +18,16 @@
 
 import React from "react"
 import NavBar from "./components/NavBar"
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom"
 
-export default () => {
+export default props => {
     return (
-        <div>
-            <header>
-                <NavBar pagename="Home" />
-            </header>
-        </div>
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/">
+                    <NavBar pagename="Home" />
+                </Route>
+            </Switch>
+        </BrowserRouter>
     )
 }

@@ -8,13 +8,14 @@
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
         "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2",
         "react-scripts": "3.2.0"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "prettier": "prettier --write **/**.{js,ts,html,css,json}"
+        "prettier": "prettier --write **/**.{js,html,css,json}"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -36,6 +37,7 @@
         "@types/react": "^16.9.13",
         "@types/react-dom": "^16.9.4",
         "@types/react-router": "^5.1.3",
+        "@types/react-router-dom": "^5.1.3",
         "prettier": "^1.19.1"
     },
     "prettier": {
