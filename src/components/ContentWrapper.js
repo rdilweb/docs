@@ -15,29 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-
 import React from "react"
-import ReactMarkdown from "react-markdown"
-import ContentWrapper from "../components/ContentWrapper"
-import { Typography } from "@material-ui/core"
+import Paper from "@material-ui/core/Paper"
+import { makeStyles } from "@material-ui/core/styles"
 
 export default props => {
-    return (
-        <div>
-            <Typography>
-                <ContentWrapper
-                    display={
-                        <ReactMarkdown
-                            source={`
-# Welcome!
+    const classes = makeStyles(theme => ({
+        paper: {
+            margin: "15px",
+            padding: "15px"
+        }
+    }))()
 
-This site houses the documentation for most of RDIL's services.
-Thank you for visiting!
-                    `}
-                        />
-                    }
-                />
-            </Typography>
-        </div>
-    )
+    return <Paper className={classes.paper}>{props.display}</Paper>
 }

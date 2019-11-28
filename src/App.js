@@ -17,17 +17,43 @@
  */
 
 import React from "react"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Home from "./pages/Home"
+import NavDrawer from "./components/NavDrawer"
 import NavBar from "./components/NavBar"
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom"
+import DocsTheme from "./util/DocsTheme"
+import ThemeProvider from "@material-ui/styles/ThemeProvider"
 
 export default props => {
+    const [drawerOpen, setDrawerOpen] = React.useState(false)
+
+    const toggleDrawer = event => {
+        if (
+            event.type === "keydown" &&
+            (event.key === "Tab" || event.key === "Shift")
+        ) {
+            return
+        }
+
+        setDrawerOpen(!drawerOpen)
+    }
+
     return (
-        <BrowserRouter>
-            <Switch>
-                <Route exact path="/">
-                    <NavBar pagename="Home" />
-                </Route>
-            </Switch>
-        </BrowserRouter>
+        <div>
+            <ThemeProvider theme={DocsTheme}>
+                <NavBar openDrawer={toggleDrawer} />
+                <BrowserRouter>
+                    <NavDrawer
+                        notifyParentOfClose={pushable => setDrawerOpen(false)}
+                        open={drawerOpen}
+                    />
+                    <Switch>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                    </Switch>
+                </BrowserRouter>
+            </ThemeProvider>
+        </div>
     )
 }

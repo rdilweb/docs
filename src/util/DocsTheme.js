@@ -16,28 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React from "react"
-import ReactMarkdown from "react-markdown"
-import ContentWrapper from "../components/ContentWrapper"
-import { Typography } from "@material-ui/core"
+import { createMuiTheme } from '@material-ui/core/styles'
+import pink from '@material-ui/core/colors/pink'
 
-export default props => {
-    return (
-        <div>
-            <Typography>
-                <ContentWrapper
-                    display={
-                        <ReactMarkdown
-                            source={`
-# Welcome!
-
-This site houses the documentation for most of RDIL's services.
-Thank you for visiting!
-                    `}
-                        />
-                    }
-                />
-            </Typography>
-        </div>
-    )
-}
+export default createMuiTheme({
+    palette: {
+        primary: pink
+    }
+})

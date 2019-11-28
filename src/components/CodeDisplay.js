@@ -17,27 +17,31 @@
  */
 
 import React from "react"
-import ReactMarkdown from "react-markdown"
-import ContentWrapper from "../components/ContentWrapper"
-import { Typography } from "@material-ui/core"
+import AceEditor from "react-ace"
 
 export default props => {
-    return (
-        <div>
-            <Typography>
-                <ContentWrapper
-                    display={
-                        <ReactMarkdown
-                            source={`
-# Welcome!
+    const [code, setCode] = React.useState(props.snippet)
 
-This site houses the documentation for most of RDIL's services.
-Thank you for visiting!
-                    `}
-                        />
-                    }
-                />
-            </Typography>
-        </div>
+    const handleChange = change => setCode(change.target.value)
+
+    return (
+        <AceEditor
+            placeholder="This is an interactive code editor!"
+            mode="python"
+            theme="monokai"
+            onChange={handleChange}
+            fontSize={14}
+            showPrintMargin={true}
+            showGutter={true}
+            highlightActiveLine={true}
+            value={code}
+            setOptions={{
+                enableBasicAutocompletion: false,
+                enableLiveAutocompletion: true,
+                enableSnippets: false,
+                showLineNumbers: true,
+                tabSize: 4
+            }}
+        />
     )
 }

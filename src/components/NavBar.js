@@ -26,8 +26,8 @@ import MenuIcon from "@material-ui/icons/Menu"
 export default props => {
     const classes = makeStyles(theme => ({
         title: {
-            flexGrow: 1,
-            textAlign: "right"
+            flexGrow: 0.97,
+            textAlign: "center"
         }
     }))()
 
@@ -39,11 +39,12 @@ export default props => {
                         edge="start"
                         color="inherit"
                         aria-label="menu"
+                        onClick={props.openDrawer}
                     >
                         <MenuIcon />
                     </IconButton>
                     <Typography className={classes.title} variant="h6">
-                        {props.pagename} - RDIL Web Docs
+                        RDIL Web Docs
                     </Typography>
                 </Toolbar>
             </AppBar>
