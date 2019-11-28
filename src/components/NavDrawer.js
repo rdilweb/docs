@@ -32,18 +32,18 @@ export default withRouter(props => {
             width: 300
         },
         link: {
-            color: 'inherit',
-            textDecoration: 'none'
+            color: "inherit",
+            textDecoration: "none"
         },
         title: {
-            textAlign: 'center',
+            textAlign: "center",
             margin: theme.spacing(1)
         }
     }))()
 
     const inputs = {
         "/": {
-            "display": "Home"
+            display: "Home"
         }
     }
 
@@ -63,12 +63,17 @@ export default withRouter(props => {
         if (item.hasOwnProperty("subpages")) {
             for (const subpage in item.subpages) {
                 items.push(
-                    <ListItem button key={inputs[item].subpages[subpage].display}>
+                    <ListItem
+                        button
+                        key={inputs[item].subpages[subpage].display}
+                    >
                         <ListItemIcon>
                             <Description />
                         </ListItemIcon>
                         <Link to={subpage} className={styles.link}>
-                            <ListItemText primary={inputs[item].subpages[subpage].display} />
+                            <ListItemText
+                                primary={inputs[item].subpages[subpage].display}
+                            />
                         </Link>
                     </ListItem>
                 )

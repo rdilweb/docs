@@ -16,8 +16,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { createMuiTheme } from '@material-ui/core/styles'
-import pink from '@material-ui/core/colors/pink'
+import { createMuiTheme } from "@material-ui/core/styles"
+import pink from "@material-ui/core/colors/pink"
 
 export default createMuiTheme({
     palette: {
