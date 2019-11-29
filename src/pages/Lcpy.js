@@ -19,7 +19,6 @@
 import React from "react"
 import ReactMarkdown from "react-markdown"
 import ContentWrapper from "../components/ContentWrapper"
-import Typography from "@material-ui/core/Typography"
 import Helmet from "react-helmet"
 
 export default props => {
@@ -28,11 +27,10 @@ export default props => {
             <Helmet>
                 <title>lcpy - RDIL Web Docs</title>
             </Helmet>
-            <Typography>
-                <ContentWrapper
-                    display={
-                        <ReactMarkdown
-                            source={`
+            <ContentWrapper
+                display={
+                    <ReactMarkdown
+                        source={`
 # lcpy
 
 \`lcpy\` is a simple Python library that allows you to use the lowercase version of common values.
@@ -40,11 +38,10 @@ export default props => {
 A bit of time ago, I taught some people how to write Python, and they both kept forgetting to add
 the first letter as uppercase. This library is for them. The great thing about the library's design
 is that it is made for beginners and advanced developers alike.
-                            `}
-                        />
-                    }
-                />
-            </Typography>
+                        `}
+                    />
+                }
+            />
         </div>
     )
 }

@@ -19,7 +19,6 @@
 import React from "react"
 import ReactMarkdown from "react-markdown"
 import ContentWrapper from "../components/ContentWrapper"
-import Typography from "@material-ui/core/Typography"
 import Helmet from "react-helmet"
 
 export default props => {
@@ -28,20 +27,18 @@ export default props => {
             <Helmet>
                 <title>Home - RDIL Web Docs</title>
             </Helmet>
-            <Typography>
-                <ContentWrapper
-                    display={
-                        <ReactMarkdown
-                            source={`
+            <ContentWrapper
+                display={
+                    <ReactMarkdown
+                        source={`
 # Welcome!
 
 This site houses the documentation for most of RDIL's services.
 Thank you for visiting!
-                    `}
-                        />
-                    }
-                />
-            </Typography>
+                        `}
+                    />
+                }
+            />
         </div>
     )
 }

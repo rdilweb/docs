@@ -16,7 +16,6 @@
 // Yes, this is taken from another one of my react projects (with my permission)
 
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
 import Typography from "@material-ui/core/Typography"
@@ -24,13 +23,6 @@ import IconButton from "@material-ui/core/IconButton"
 import MenuIcon from "@material-ui/icons/Menu"
 
 export default props => {
-    const classes = makeStyles(theme => ({
-        title: {
-            flexGrow: 0.97,
-            textAlign: "center"
-        }
-    }))()
-
     return (
         <div>
             <AppBar position="static">
@@ -43,9 +35,7 @@ export default props => {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography className={classes.title} variant="h6">
-                        RDIL Web Docs
-                    </Typography>
+                    <Typography variant="h6">RDIL Web Docs</Typography>
                 </Toolbar>
             </AppBar>
         </div>

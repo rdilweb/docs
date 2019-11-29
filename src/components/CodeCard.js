@@ -17,16 +17,23 @@
  */
 
 import React from "react"
-import Paper from "@material-ui/core/Paper"
-import { makeStyles } from "@material-ui/core/styles"
+import Card from "@material-ui/core/Card"
+import Prism from "prismjs"
 
 export default props => {
-    const classes = makeStyles(theme => ({
-        paper: {
-            margin: "15px",
-            padding: "15px"
-        }
-    }))()
+    React.useEffect(() => {
+        setTimeout(() => {
+            Prism.highlightAll()
+        }, 0)
+    })
 
-    return <Paper className={classes.paper}>{props.display}</Paper>
+    return (
+        <Card>
+            <pre className="line-numbers">
+                <code className="language-python">
+                    {props.code}
+                </code>
+            </pre>
+        </Card>
+    )
 }

@@ -43,7 +43,7 @@ export default withRouter(props => {
     }))()
 
     const inputs = {
-        "/": {
+        "": {
             display: "Home"
         },
         "/lcpy": {
