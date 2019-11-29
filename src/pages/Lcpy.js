@@ -26,18 +26,21 @@ export default props => {
     return (
         <div>
             <Helmet>
-                <title>Home - RDIL Web Docs</title>
+                <title>lcpy - RDIL Web Docs</title>
             </Helmet>
             <Typography>
                 <ContentWrapper
                     display={
                         <ReactMarkdown
                             source={`
-# Welcome!
+# lcpy
 
-This site houses the documentation for most of RDIL's services.
-Thank you for visiting!
-                    `}
+\`lcpy\` is a simple Python library that allows you to use the lowercase version of common values.
+
+A bit of time ago, I taught some people how to write Python, and they both kept forgetting to add
+the first letter as uppercase. This library is for them. The great thing about the library's design
+is that it is made for beginners and advanced developers alike.
+                            `}
                         />
                     }
                 />

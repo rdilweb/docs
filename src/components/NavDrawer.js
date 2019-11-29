@@ -18,7 +18,8 @@
 
 import React from "react"
 import Drawer from "@material-ui/core/Drawer"
-import { makeStyles, Typography } from "@material-ui/core"
+import Typography from "@material-ui/core/Typography"
+import { makeStyles } from "@material-ui/core"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 import ListItemIcon from "@material-ui/core/ListItemIcon"
@@ -44,6 +45,9 @@ export default withRouter(props => {
     const inputs = {
         "/": {
             display: "Home"
+        },
+        "/lcpy": {
+            display: "lcpy Library"
         }
     }
 
@@ -55,7 +59,11 @@ export default withRouter(props => {
                 <ListItemIcon>
                     <Description />
                 </ListItemIcon>
-                <Link to={item} className={styles.link}>
+                <Link
+                    to={item}
+                    onClick={props.notifyParentOfClose}
+                    className={styles.link}
+                >
                     <ListItemText primary={`    ${inputs[item].display}`} />
                 </Link>
             </ListItem>
@@ -70,7 +78,11 @@ export default withRouter(props => {
                         <ListItemIcon>
                             <Description />
                         </ListItemIcon>
-                        <Link to={subpage} className={styles.link}>
+                        <Link
+                            to={subpage}
+                            onClick={props.notifyParentOfClose}
+                            className={styles.link}
+                        >
                             <ListItemText
                                 primary={inputs[item].subpages[subpage].display}
                             />

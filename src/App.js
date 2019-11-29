@@ -23,37 +23,39 @@ import NavDrawer from "./components/NavDrawer"
 import NavBar from "./components/NavBar"
 import DocsTheme from "./util/DocsTheme"
 import ThemeProvider from "@material-ui/styles/ThemeProvider"
+import Lcpy from "./pages/Lcpy"
 
 export default props => {
     const [drawerOpen, setDrawerOpen] = React.useState(false)
 
     const toggleDrawer = event => {
         if (
-            event.type === "keydown" &&
-            (event.key === "Tab" || event.key === "Shift")
+            !(
+                event.type === "keydown" &&
+                (event.key === "Tab" || event.key === "Shift")
+            )
         ) {
-            return
+            setDrawerOpen(!drawerOpen)
         }
-
-        setDrawerOpen(!drawerOpen)
     }
 
     return (
-        <div>
-            <ThemeProvider theme={DocsTheme}>
-                <NavBar openDrawer={toggleDrawer} />
-                <BrowserRouter>
-                    <NavDrawer
-                        notifyParentOfClose={pushable => setDrawerOpen(false)}
-                        open={drawerOpen}
-                    />
-                    <Switch>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                    </Switch>
-                </BrowserRouter>
-            </ThemeProvider>
-        </div>
+        <ThemeProvider theme={DocsTheme}>
+            <NavBar openDrawer={toggleDrawer} />
+            <BrowserRouter>
+                <NavDrawer
+                    notifyParentOfClose={pushable => setDrawerOpen(false)}
+                    open={drawerOpen}
+                />
+                <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route path="/lcpy">
+                        <Lcpy />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
+        </ThemeProvider>
     )
 }
