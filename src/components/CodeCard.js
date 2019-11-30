@@ -17,10 +17,17 @@
  */
 
 import React from "react"
-import Card from "@material-ui/core/Card"
 import Prism from "prismjs"
+import Highlight, { defaultProps } from "prism-react-renderer"
+import { makeStyles } from "@material-ui/core"
 
 export default props => {
+    const classes = makeStyles(theme => ({
+        text: {
+            paddingLeft: theme.spacing(1)
+        }
+    }))()
+
     React.useEffect(() => {
         setTimeout(() => {
             Prism.highlightAll()
@@ -28,12 +35,18 @@ export default props => {
     })
 
     return (
-        <Card>
-            <pre className="line-numbers">
-                <code className="language-python">
-                    {props.code}
-                </code>
-            </pre>
-        </Card>
+        <Highlight {...defaultProps} code={props.code} language="python">
+            {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                <pre className={`${className} ${classes.text}`} style={style}>
+                    {tokens.map((line, i) => (
+                        <div {...getLineProps({ line, key: i })}>
+                            {line.map((token, key) => (
+                                <span {...getTokenProps({ token, key })} />
+                            ))}
+                        </div>
+                    ))}
+                </pre>
+            )}
+        </Highlight>
     )
 }

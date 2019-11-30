@@ -2,7 +2,7 @@
   "plugins": [
     ["prismjs", {
       "languages": ["python"],
-      "plugins": ["line-numbers", "show-language"],
+      "plugins": [],
       "theme": "okaidia",
       "css": true
     }]
