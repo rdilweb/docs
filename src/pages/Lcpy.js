@@ -44,7 +44,8 @@ is that it is made for beginners and advanced developers alike.
 Here is an example of how to use it:
                             `}
                         />
-                        <CodeCard code={`
+                        <CodeCard
+                            code={`
 # import the library
 from lcpy import *
 
@@ -55,7 +56,8 @@ print(false)  # outputs False
 print(none is None)  # outputs True
 
 raise exception("oh no! problem detected.")
-                        `} />
+                        `}
+                        />
                     </>
                 }
             />
