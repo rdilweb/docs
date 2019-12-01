@@ -1,0 +1,6 @@
+ports:
+- port: 8000
+
+tasks:
+- init: python3 -m pip install --upgrade mkdocs-material
+  command: mkdocs serve
