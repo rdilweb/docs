@@ -8,6 +8,7 @@ theme:
   feature:
     tabs: false
   favicon: https://rdil.rocks/favicon.ico
+  logo: assets/34555510.png
 
 repo_name: 'rdilweb/docs'
 repo_url: 'https://github.com/rdilweb/docs'
