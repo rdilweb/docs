@@ -1,0 +1,19 @@
+container:
+  image: squidfunk/mkdocs-material:4.5.0
+
+docs_deploy_task:
+  env:
+    DEPLOY_TOKEN: 
+  install_script: pip install --upgrade pymdown-extensions
+  skip: $CIRRUS_BRANCH != 'master'
+  deploy_script: |
+    git config --global user.name "Cirrus CI"
+    git config --global user.email "support@rdil.rocks"
+    git remote set-url origin https://$DEPLOY_TOKEN@github.com/rdilweb/docs/
+    mkdocs gh-deploy --force --remote-branch gh-pages
+
+docs_test_task:
+  install_script: pip install --upgrade pymdown-extensions
+  build_script: mkdocs build
+  docs_build_artifacts:
+    path: site/**
