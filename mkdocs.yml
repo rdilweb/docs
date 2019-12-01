@@ -50,6 +50,8 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/rdilweb'
+    - type: 'twitter'
+      link: 'https://twitter.com/rdil_pickle'
 
 nav:
   - Home: index.md
