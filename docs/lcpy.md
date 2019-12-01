@@ -19,9 +19,11 @@ To use the library, you will first need to put this at the top of any Python fil
 from lcpy import *
 ```
 
+and that is basically it, you can now use it.
+
 ## Values
 
-If you know the basics, here are the values you can use:
+If you read the [usage section](#usage) and now have a basic understanding, here are the values you can use:
 
 * `true`
 * `false`
