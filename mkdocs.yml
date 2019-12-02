@@ -56,5 +56,5 @@ extra:
 nav:
   - Home: index.md
   - API: api.md
-  - "lcpy Library": lcpy.md
+  - "lcpy Library": libraries/lcpy.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
