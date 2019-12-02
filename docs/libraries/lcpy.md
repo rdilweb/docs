@@ -29,3 +29,7 @@ If you read the [usage section](#usage) and now have a basic understanding, here
 * `false`
 * `none`
 * `exception`
+
+## Source
+
+The source can be found [on GitHub](https://github.com/RDIL/lcpy).

@@ -40,7 +40,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-site_description: Documentation for my services.
+site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
 site_author: Reece Dunham
 copyright: Copyright (©) Reece Dunham 2019-present
@@ -56,5 +56,7 @@ extra:
 nav:
   - Home: index.md
   - API: api.md
-  - "lcpy Library": libraries/lcpy.md
+  - Libraries:
+    - lcpy: libraries/lcpy.md
+    - intutils: libraries/intutils.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
