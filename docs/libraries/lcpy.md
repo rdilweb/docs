@@ -28,7 +28,46 @@ If you read the [usage section](#usage) and now have a basic understanding, here
 * `true`
 * `false`
 * `none`
-* `exception`
+* `exception` (**new** in v1.1.0)
+
+The following values can only be used in `v2.0.0` and above:
+
+* `indexerror`
+* `environmenterror`
+* `eoferror`
+* `oserror`
+* `processlookuperror`
+* `fileexistserror`
+* `filenotfounderror`
+* `floatingpointerror`
+* `recursionerror`
+* `referenceerror`
+* `runtimeerror`
+* `arithmeticerror`
+* `assertionerror`
+* `attributeerror`
+* `baseexception`
+* `blockingioerror`
+* `brokenpipeerror`
+* `buffererror`
+* `childprocesserror`
+* `connectionabortederror`
+* `connectionrefusederror`
+* `connectionreseterror`
+* `interruptederror`
+* `isadirectoryerror`
+* `ioerror`
+* `importerror`
+* `indentationerror`
+* `keyerror`
+* `lookuperror`
+* `modulenotfounderror`
+
+!!! warning "Directly Using v2.0.0"
+    I strongly suggest you don't use v2.0.0, instead
+    opt for v2.0.1 or higher. v2.0.0 has broken links
+    to documentation, and it helps for users to know
+    what to read for more information about the library.
 
 ## Source
 
