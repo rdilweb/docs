@@ -57,6 +57,7 @@ nav:
   - Home: index.md
   - API: api.md
   - Libraries:
+    - area4: libraries/area4.md
     - lcpy: libraries/lcpy.md
     - intutils: libraries/intutils.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
