@@ -13,10 +13,12 @@ The name of the package on PyPI is `intutils`.
 
 Start by importing the library. From there, you can use any of these functions:
 
-| Function                       | Description                           |
-|------------------------------- |---------------------------------------|
-| `is_even(number: int) -> bool` | Returns if the passed number is even. |
-| `is_odd(number: int) -> bool`  | Returns if the passed number is odd.  |
+| **Function**                                                  | **Description**                         | **New In** |
+|---------------------------------------------------------------|-----------------------------------------|------------|
+| `is_even(number: int) -> bool`                                | Returns if the passed number is even.   | 1.0.0      |
+| `is_odd(number: int) -> bool`                                 | Returns if the passed number is odd.    | 1.0.0      |
+| `is_int(testable: object) -> bool`                            | Returns if the passed object is an int. | 1.1.0      |
+| `divisible_by_no_decimals(number: int, divisor: int) -> bool` | Returns if the passed number can be divided by the other passed number without the result containing decimals. | 1.1.0 |
 
 !!! note "Type Hints"
     The functions listed in the table all have type hints. I suggest you use them, but they aren't forced.
