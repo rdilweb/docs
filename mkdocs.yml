@@ -7,7 +7,7 @@ theme:
     accent: 'cyan'
   feature:
     tabs: false
-  favicon: https://rdil.rocks/favicon.ico
+  favicon: /favicon.ico
   logo: assets/34555510.png
 
 repo_name: 'rdilweb/docs'
@@ -58,7 +58,7 @@ nav:
   - API: api.md
   - Libraries:
     - area4: libraries/area4.md
-    - lcpy: libraries/lcpy.md
     - intutils: libraries/intutils.md
+    - lcpy: libraries/lcpy.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
