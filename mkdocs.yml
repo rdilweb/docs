@@ -60,5 +60,9 @@ nav:
     - area4: libraries/area4.md
     - intutils: libraries/intutils.md
     - lcpy: libraries/lcpy.md
+    - LiquidBT:
+      - Introduction: libraries/liquidbt/intro.md
+      - "Getting Started": libraries/liquidbt/getting-started.md
+      - Plugins: libraries/liquidbt/plugins.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
