@@ -1,3 +1,5 @@
-FROM squidfunk/mkdocs-material:4.5.1
+FROM squidfunk/mkdocs-material:4.6.0
 
-RUN python3 -m pip install --upgrade pymdown-extensions
+COPY ./requirements.txt requirements.txt
+
+RUN python3 -m pip install --upgrade -r requirements.txt

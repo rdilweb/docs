@@ -40,6 +40,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
 site_author: Reece Dunham
