@@ -58,6 +58,7 @@ nav:
   - API: api.md
   - Libraries:
     - area4: libraries/area4.md
+    - filehandlers: libraries/filehandlers.md
     - intutils: libraries/intutils.md
     - lcpy: libraries/lcpy.md
     - LiquidBT:
