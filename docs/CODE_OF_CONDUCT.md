@@ -1,5 +1,8 @@
 # Contributor Covenant Code of Conduct
 
+All of my projects fall under this code of conduct, even if the file isn't present
+in the repository. The upholding of this code of conduct is taken very seriously.
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
