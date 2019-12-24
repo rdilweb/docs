@@ -1,6 +1,6 @@
 # Ruby Library `picklecore`
 
-*PickleCore* is a Jekyll theme developed by [Reece Dunham](https://github.com/RDIL) ([for his site](https://rdil.rocks)) and [Param Thakkar](https://github.com/paramt).
+PickleCore is a Jekyll theme developed by [Reece Dunham](https://github.com/RDIL) ([for his site](https://rdil.rocks)) and [Param Thakkar](https://github.com/paramt).
 
 ## Installation
 
@@ -32,7 +32,7 @@ Unfortunately, PickleCore is not whitelisted as a GitHub pages theme, so you can
 
 ### Netlify
 
-Netlify is perfect for deploying PickleCore. The setup is quite easy - just set the command as `gem update && gem install bundler && bundle exec jekyll build` and set the deploy folder to `_site`!
+Netlify is perfect for deploying PickleCore sites. The setup is quite easy - just set the command as `gem install bundler && bundle exec jekyll build` and set the deploy folder to `_site`!
 
 ## Customization
 
@@ -98,24 +98,10 @@ layout: default-with-sidebar
 ---
 ```
 
-The second easiest way is to add it via the include:
-
-```html
----
-layout: default
----
-<!--
-    Anchor the sidebar opener to this location on the page.
-    Note: trying to move it via CSS may prove difficult!
--->
-{% include components/binds/sidebar-anchor.html %}
-
-<!-- Other content -->
-```
-
-But you should ***most certainly not*** simply use the `sidebar.html` component without the anchor - this will most likely break everything. Use one of the methods above.
+Avoid using the `sidebar.html` component without the anchor - this will most likely break a lot of stuff.
 
 > *Help! My sidebar is blank when I open it - what do I do?*
+> 
 > Certain site config fields will populate the sidebar, so see the customization section above.
 
 ### Solid Blocks
