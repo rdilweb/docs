@@ -26,9 +26,10 @@ npx static-server-rdil [OPTIONS HERE]
 
 Arguments (all are optional):
 
-* `--port`: [`Number`] port number, defaults to 3000
-* `--root`: [`String`] root folder, defaults to working directory
-* `--no-request-logging`: [`Switch`] if this option is present, `Serving /<path>` messages will not be outputted.
+* `--port`: [`Number`] port number, defaults to `3000`.
+* `--root`: [`String`] root folder, defaults to working directory.
+* `--no-request-logging`: [`Switch`] if this option is present, `Serving /<path>` messages will not be outputted to the console.
+* `--no-emojis`: [`Switch`] if this option is present, emojis will not be outputted to the console.
 
 For example:
 

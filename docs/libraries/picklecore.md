@@ -83,8 +83,8 @@ A card (shown above) can be applied by adding the following to any page **with [
     but all cards NEED to be in a container (with the class 'cards').
 -->
 <div class="cards">
-  <!-- In this container, render a card -->
-  {% include components/card.html cardtitle="My Card" cardbody="The text of the card!" %}
+    <!-- In this container, render a card -->
+    {% include components/card.html cardtitle="My Card" cardbody="The text of the card!" %}
 </div>
 ```
 
