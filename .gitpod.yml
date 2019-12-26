@@ -2,4 +2,4 @@ ports:
 - port: 8000
 
 tasks:
-  - command: python3 -m pip install --upgrade -r requirements.txt && mkdocs serve
+  - command: python3 -m pip install --upgrade -r drec.txt && mkdocs serve
