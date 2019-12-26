@@ -5,6 +5,7 @@ Deploy_task:
   only_if: $CIRRUS_BRANCH == 'master'
   env:
     DEPLOY_TOKEN: ENCRYPTED[2e1b3879f879c57eefa69d7b97272ff580fe771b21acd3ab5ccadd70942c21c717435b2756aa270c4dc960009a6fd03c]
+  build_script: mkdocs build
   deploy_script: |
     git config --global user.name "Cirrus CI"
     git config --global user.name "deploy@rdil.rocks"
