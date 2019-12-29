@@ -49,7 +49,7 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
 * `browserconfigxml` - link to a `browserconfig.xml` for Microsoft-based browsers
 * The same thing can be applied to `twitter` with the subkey `image`, and `opengraph` with the subkey `image`
 * `twitter` - Twitter meta dictionary
-  * `username`: your Twitter username as a string (no `@`!)
+    * `username`: your Twitter username as a string (no `@`!)
 * `devto` - your [DEV](https://dev.to/) username (if you want it on the sidebar)
 * `no_extra_css` - prevent custom stylesheets (see below) from being loaded (defaults to `false`)
 * `no_extra_head` - prevent custom metadata (see below) from being loaded (defaults to `false`)
