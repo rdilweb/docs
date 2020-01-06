@@ -30,6 +30,8 @@ Arguments (all are optional):
 * `--root`: [`String`] root folder, defaults to working directory.
 * `--no-request-logging`: [`Switch`] if this option is present, `Serving /<path>` messages will not be outputted to the console.
 * `--no-emojis`: [`Switch`] if this option is present, emojis will not be outputted to the console.
+* `--ignore-errors`: [`Switch`] if this option is present, server errors won't be outputted to the console.
+* `--enhanced-security`: [`Switch`] if this option is present, headers for extra security will be sent with responses.
 
 For example:
 
