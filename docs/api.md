@@ -20,3 +20,7 @@ The production version is hosted at `https://backend.rdil.rocks/`.
 | **HTTP Method** | **Endpoint**           | **Description**                           |
 |-----------------|------------------------|-------------------------------------------|
 | `GET`           | `/timers/dark-auction` | Get the time until the next dark auction. |
+
+## Source
+
+To prevent abuse, the server's source is no longer public.
