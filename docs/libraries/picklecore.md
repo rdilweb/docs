@@ -41,6 +41,15 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
 * `name` - the name of the site (main title)
 * `github` - Your GitHub username
 * `devto` - your [DEV](https://dev.to/) username (if you want it on the sidebar)
+* `webmanifest` - link to a `manifest.json` or a file with the `.webmanifest` extension (used by Google for web apps, link must be relative to the root page of the site)
+* `description` - description of the site (for metadata)
+* `url` - the URL of your site when hosted in production
+* `apple-touch-icon` - the URL of the Apple touch icon for the site if you have one (see [this article](https://www.computerhope.com/jargon/a/appletou.htm) for more info)
+* `keywords` - an inline list of comma (no spaces) seperated keywords (for SEO) (e.g. `keywords: "hello,world,this,is,my,site"`)
+* `browserconfigxml` - link to a `browserconfig.xml` for Microsoft-based browsers
+* The same thing can be applied to `twitter` with the subkey `image`, and `opengraph` with the subkey `image`
+* `twitter` - Twitter meta dictionary
+    * `username`: your Twitter username as a string (no `@`!)
 * `no_extra_css` - prevent custom stylesheets (see below) from being loaded (defaults to `false`)
 * `no_extra_head` - prevent custom metadata (see below) from being loaded (defaults to `false`)
 
