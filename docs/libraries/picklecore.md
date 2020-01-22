@@ -47,7 +47,6 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
 * `apple-touch-icon` - the URL of the Apple touch icon for the site if you have one (see [this article](https://www.computerhope.com/jargon/a/appletou.htm) for more info)
 * `keywords` - an inline list of comma (no spaces) seperated keywords (for SEO) (e.g. `keywords: "hello,world,this,is,my,site"`)
 * `browserconfigxml` - link to a `browserconfig.xml` for Microsoft-based browsers
-* The same thing can be applied to `twitter` with the subkey `image`, and `opengraph` with the subkey `image`
 * `twitter` - Twitter meta dictionary
     * `username`: your Twitter username as a string (no `@`!)
 * `no_extra_css` - prevent custom stylesheets (see below) from being loaded (defaults to `false`)
