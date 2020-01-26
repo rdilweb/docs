@@ -4,7 +4,7 @@ theme:
   name: 'material'
   palette:
     primary: 'cyan'
-    accent: 'cyan'
+    accent: 'indigo'
   feature:
     tabs: false
   favicon: /favicon.ico

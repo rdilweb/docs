@@ -1,6 +1,6 @@
 # API
 
-The RDIL API is able to perform different tasks that help out in different ways.
+The RDIL API is able to perform certain tasks that help out in different ways.
 
 ## Base Endpoint
 
