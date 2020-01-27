@@ -1,10 +1,13 @@
 container:
-  dockerfile: Dockerfile
+  image: python:latest
 
 Deploy_task:
   only_if: $CIRRUS_BRANCH == 'master'
   env:
     DEPLOY_TOKEN: ENCRYPTED[2e1b3879f879c57eefa69d7b97272ff580fe771b21acd3ab5ccadd70942c21c717435b2756aa270c4dc960009a6fd03c]
+  deps_script: |
+    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade -r requirements.txt
   build_script: mkdocs build
   deploy_script: |
     git config --global user.name "Cirrus CI"

@@ -1,5 +1,5 @@
-FROM squidfunk/mkdocs-material:4.6.0
+FROM python:latest
 
-COPY ./drec.txt requirements.txt
+COPY ./requirements.txt requirements.txt
 
-RUN python3 -m pip install --upgrade -r requirements.txt
+RUN python3 -m pip install --upgrade pip -r requirements.txt
