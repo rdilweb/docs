@@ -1,0 +1,28 @@
+# Python library `flask-rest-error-handling`
+
+`flask-rest-error-handling` takes a Flask application object, and configures it to output payloads on errors that look like this:
+
+```json
+{"status": false, "code": 404, "error": "404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+```
+
+## Installing
+
+The name of the PyPI package is `flask-rest-error-handling`.
+
+## Usage
+
+Here is an example app that uses it:
+
+```python
+from flask import Flask
+from flask_rest_error_handling import setup_error_handling
+
+app = Flask(__name__)
+
+setup_error_handling(app)
+# by default, it will handle these error codes:
+# 401, 403, 404, 500
+# but this can be customized by passing the `error_codes`
+# keyword argument
+```

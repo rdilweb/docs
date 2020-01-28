@@ -63,6 +63,11 @@ nav:
   - API: api.md
   - Libraries:
     - area4: libraries/area4.md
+    - bluejay:
+      - Introduction: libraries/bluejay/index.md
+      - discord-sentry-reporting: libraries/bluejay/discord-sentry-reporting.md
+      - flask-rest-error-handling: libraries/bluejay/flask-rest-error-handling.md
+      - joinstring: libraries/bluejay/joinstring.md
     - filehandlers: libraries/filehandlers.md
     - intutils: libraries/intutils.md
     - lcpy: libraries/lcpy.md
