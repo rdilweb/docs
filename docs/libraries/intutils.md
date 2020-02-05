@@ -19,6 +19,7 @@ Start by importing the library. From there, you can use any of these functions:
 | `is_odd(number: int) -> bool`                                 | Returns if the passed number is odd.    | 1.0.0      |
 | `is_int(testable: object) -> bool`                            | Returns if the passed object is an int. | 1.1.0      |
 | `divisible_by_no_decimals(number: int, divisor: int) -> bool` | Returns if the passed number can be divided by the other passed number without the result containing decimals. | 1.1.0 |
+| `sort_greatest_to_least(mylist: list) -> list:`               | Returns the passed integer list, sorted from greatest to least. | 2.0.0 |
 
 !!! note "Type Hints"
     The functions listed in the table all have type hints. I suggest you use them, but they aren't forced.
