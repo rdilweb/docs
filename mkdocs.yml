@@ -76,6 +76,9 @@ nav:
       - "Getting Started": libraries/liquidbt/getting-started.md
       - Plugins: libraries/liquidbt/plugins.md
     - PickleCore: libraries/picklecore.md
+    - PyPerf:
+      - Introduction: libraries/pyperf/index.md
+      - Patterns: libraries/pyperf/patterns.md
     - "Static Server": libraries/static-server-rdil.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
