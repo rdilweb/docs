@@ -68,4 +68,4 @@ For example, here is the result of trying to import a few well known and widely 
 As you can see, just importing 3 packages can take a full second!
 
 So when possible, you should limit the number of imports you have.
-Any file that has more then 15 will be flagged by PyPerf.
+Any file that has more then 15 will be flagged by Perf.
