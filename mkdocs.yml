@@ -82,5 +82,7 @@ nav:
       - Introduction: libraries/perf/index.md
       - Patterns: libraries/perf/patterns.md
     - "Static Server": libraries/static-server-rdil.md
+  - Specifications:
+    - DNSR: specs/dnsr.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
