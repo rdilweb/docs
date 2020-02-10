@@ -26,7 +26,7 @@ npm i -g static-server-rdil
 Run this in a terminal:
 
 ```bash
-static-server [OPTIONS HERE]
+static-server-rdil [OPTIONS HERE]
 ```
 
 Or, for more portability, use this command (with this method you won't need to install it like described above):
@@ -55,3 +55,7 @@ To configure specific behavior, you can pass any of these options via the comman
 ```bash
 static-server --port 5001 --root site_output/
 ```
+
+## Source
+
+The source can be found [on GitHub](https://github.com/rdilweb/static-server).

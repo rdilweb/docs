@@ -24,6 +24,17 @@ theme: picklecore
 
 and it should apply.
 
+!!! danger "Required Plugins"
+    The theme requires some plugins to be enabled for functionality,
+    otherwise the build may fail. These plugins include:
+
+    * `jekyll-seo-tag` (if you want you can configure it)
+    * `jekyll-default-layout`
+    * `jekyll-relative-links` (PickleCore requires it for certain internal link-building)
+
+    You will need to add the plugins to your `plugins` field in your `_config.yml`, or the build may fail.
+    Don't worry about installing them, PickleCore takes care of that.
+
 ## Deploying
 
 ### GitHub Pages
@@ -51,6 +62,7 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
     * `username`: your Twitter username as a string (no `@`!)
 * `no_extra_css` - prevent custom stylesheets (see below) from being loaded (defaults to `false`)
 * `no_extra_head` - prevent custom metadata (see below) from being loaded (defaults to `false`)
+* `pgp` - a link to a public PGP key (for the sidebar)
 
 ### SEO
 
@@ -124,6 +136,15 @@ Example:
 To apply custom HTML in `<head>`, add a file called `_includes/metadata/extra.html` and put any HTML in that file.
 
 Note: this will not work if you specify the `no_extra_head` key in your config as `true`.
+
+## Optional Plugins
+
+Certain Jekyll plugins are optional, but we have configurations and presets for them. These include:
+
+* `jekyll-archives` - you can use the `archive.html` layout, which comes built-in to PickleCore.
+* `jekyll-sitemap`
+* `jekyll-feed`
+* and more, PickleCore normally doesn't mess any plugins up!
 
 ## Source
 
