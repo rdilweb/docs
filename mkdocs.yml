@@ -77,10 +77,10 @@ nav:
       - Introduction: libraries/liquidbt/intro.md
       - "Getting Started": libraries/liquidbt/getting-started.md
       - Plugins: libraries/liquidbt/plugins.md
-    - PickleCore: libraries/picklecore.md
     - Perf:
       - Introduction: libraries/perf/index.md
       - Patterns: libraries/perf/patterns.md
+    - PickleCore: libraries/picklecore.md
     - "Static Server": libraries/static-server-rdil.md
   - Specifications:
     - DNSR: specs/dnsr.md
