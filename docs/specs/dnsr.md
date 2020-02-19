@@ -53,6 +53,7 @@ Here are potential values you can put under this namespace:
 * **`location`** - If the record points to a type such as a URL or IP, add it here as a string.
 * **`value`** - If the record is a text-based type (example: `TXT`, `SPF`), add it here as a string.
 * **`cloudflare_ruleset`** - A meta-string for if your site has a Cloudflare page rule enabled. Can be ommitted, "CUSTOM", or "DRAFTED".
+* **`dns_managed_by`** - If this specific record is managed by a different provider then your main one, put its name in this field.
 
 ## Example
 
