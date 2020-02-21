@@ -46,6 +46,7 @@ plugins:
       type: timeago
   - minify:
       minify_html: true
+  - progress
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -55,6 +56,8 @@ remote_branch: master
 
 extra:
   social:
+    - type: 'home'
+      link: 'https://rdil.rocks'
     - type: 'github'
       link: 'https://github.com/rdilweb'
     - type: 'twitter'
