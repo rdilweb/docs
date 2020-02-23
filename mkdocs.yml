@@ -39,6 +39,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.progressbar
 
 plugins:
   - search
@@ -60,6 +61,8 @@ extra:
       link: 'https://rdil.rocks'
     - type: 'github'
       link: 'https://github.com/rdilweb'
+    - type: 'gitlab'
+      link: 'https://gitlab.com/rdil'
     - type: 'twitter'
       link: 'https://twitter.com/rdil_pickle'
 
@@ -87,5 +90,6 @@ nav:
     - "Static Server": libraries/static-server-rdil.md
   - Specifications:
     - DNSR: specs/dnsr.md
+    - "Tar Command": specs/tar.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
