@@ -39,6 +39,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.progressbar
 
 plugins:
   - search
@@ -47,6 +48,7 @@ plugins:
   - minify:
       minify_html: true
   - mkdocstrings
+  - progress
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -56,8 +58,12 @@ remote_branch: master
 
 extra:
   social:
+    - type: 'home'
+      link: 'https://rdil.rocks'
     - type: 'github'
       link: 'https://github.com/rdilweb'
+    - type: 'gitlab'
+      link: 'https://gitlab.com/rdil'
     - type: 'twitter'
       link: 'https://twitter.com/rdil_pickle'
 
@@ -80,6 +86,7 @@ nav:
       - Introduction: libraries/liquidbt/intro.md
       - "Getting Started": libraries/liquidbt/getting-started.md
       - Plugins: libraries/liquidbt/plugins.md
+    - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
     - Perf:
       - Introduction: libraries/perf/index.md
       - Patterns: libraries/perf/patterns.md
@@ -87,5 +94,6 @@ nav:
     - "Static Server": libraries/static-server-rdil.md
   - Specifications:
     - DNSR: specs/dnsr.md
+    - "Tar Command": specs/tar.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
