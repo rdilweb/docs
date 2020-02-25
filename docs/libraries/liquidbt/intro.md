@@ -14,8 +14,8 @@ I made LiquidBT because I wasn't happy how many different tools are needed to ac
 
 LiquidBT is an all-in-one replacement for:
 
-* setuptools
-* wheel
+* [setuptools](https://setuptools.readthedocs.io)
+* [wheel](https://wheel.readthedocs.io)
 * twine (coming soon)
 
 ## Getting Started

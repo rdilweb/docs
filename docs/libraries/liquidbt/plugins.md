@@ -37,7 +37,7 @@ To make a transformer, your plugin must extend a different class then typical pl
 ```python
 from liquidbt.plugins import TransformerPlugin
 
-class MyTransformer(TransformerPlugin):
+class MyPlugin(TransformerPlugin):
     # ...
 ```
 
