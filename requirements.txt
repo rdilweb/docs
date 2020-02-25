@@ -9,4 +9,4 @@ git+https://github.com/pawamoy/mkdocstrings#egg=mkdocstrings
 mkdocs-plugin-progress==1.1.4
 
 # modules needed to get automatically documented:
--e git+https://github.com/RDIL/filehandlers#egg=filehandlers
+filehandlers
