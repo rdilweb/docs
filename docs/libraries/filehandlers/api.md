@@ -1,0 +1,3 @@
+# `filehandlers` API Reference
+
+::: filehandlers

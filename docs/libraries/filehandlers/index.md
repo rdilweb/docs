@@ -11,7 +11,7 @@ The name of the package on PyPI is `filehandlers`.
 
 ## Usage
 
-Since filehandlers is such a big library, you should see the [dedicated documentation](https://filehandlers.rdil.rocks) for it.
+See the subpages for more information.
 
 ## Source
 
