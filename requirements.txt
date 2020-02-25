@@ -1,9 +1,11 @@
 # docs requirements:
 mkdocs-material==4.6.3
+mkdocs==1.0.4
 pymdown-extensions==6.3
 mkdocs-git-revision-date-localized-plugin==0.4.6
 mkdocs-minify-plugin==0.2.3
-mkdocstrings==0.7.1
+git+https://github.com/pawamoy/mkdocstrings#egg=mkdocstrings
+#mkdocstrings==0.7.1
 mkdocs-plugin-progress==1.1.4
 
 # modules needed to get automatically documented:
