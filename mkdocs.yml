@@ -49,6 +49,7 @@ plugins:
       minify_html: true
   - mkdocstrings
   - progress
+  - with-pdf
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -79,7 +80,6 @@ nav:
       - joinstring: libraries/bluejay/joinstring.md
     - filehandlers:
         - Home: libraries/filehandlers/index.md
-        - Concept: libraries/filehandlers/concept.md
         - "API Reference": libraries/filehandlers/api.md
     - intutils: libraries/intutils.md
     - lcpy: libraries/lcpy.md
