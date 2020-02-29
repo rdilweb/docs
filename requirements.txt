@@ -7,7 +7,6 @@ mkdocs-minify-plugin==0.2.3
 git+https://github.com/pawamoy/mkdocstrings#egg=mkdocstrings
 #mkdocstrings==0.7.1
 mkdocs-plugin-progress==1.1.4
-mkdocs-with-pdf==0.1.0
 
 # modules needed to get automatically documented:
 filehandlers

@@ -49,7 +49,6 @@ plugins:
       minify_html: true
   - mkdocstrings
   - progress
-  - with-pdf
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
