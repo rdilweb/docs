@@ -1,6 +1,7 @@
 # Python Library `intutils`
 
-`intutils` is a small library for manipulating integers. If you have any functions that deal with integers, *please* feel free to add them.
+`intutils` is a small library for manipulating integers.
+If you have any helpful functions that deal with integers, *please* feel free to add them.
 
 ## Installation
 

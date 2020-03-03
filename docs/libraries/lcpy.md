@@ -21,6 +21,16 @@ from lcpy import *
 
 and that is basically it, you can now use it.
 
+### Single-imports
+
+Some static analysis tools don't enjoy it when you use `*` imports.
+You can import single values by doing:
+
+```python
+# replace false with the value you want
+from lcpy import false
+```
+
 ## Values
 
 If you read the [usage section](#usage) and now have a basic understanding, here are the values you can use:

@@ -45,9 +45,10 @@ from liquidbt_plugin_build import (
 package_one = BuildConfiguration(
     "name-of-package-for-pypi",
     # PASTE the setuptools args you saved here
+
+    # set the dist formats to build:
+    formats=[SourceDist(), WheelBinaryDist()]
 )
-package_one.add_format(SourceDist())
-package_one.add_format(WheelBinaryDist())
 
 # You can create a new PackageConfig for
 # every package if this is a monorepo, and

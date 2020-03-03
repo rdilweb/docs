@@ -51,7 +51,7 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
 
 * `name` - the name of the site (main title)
 * `github` - Your GitHub username
-* `devto` - your [DEV](https://dev.to/) username (if you want it on the sidebar)
+* `devto` - your [DEV.to](https://dev.to/) username (if you want it on the sidebar)
 * `webmanifest` - link to a `manifest.json` or a file with the `.webmanifest` extension (used by Google for web apps, link must be relative to the root page of the site)
 * `description` - description of the site (for metadata)
 * `url` - the URL of your site when hosted in production
