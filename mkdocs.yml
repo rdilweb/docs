@@ -87,6 +87,7 @@ nav:
       - "Getting Started": libraries/liquidbt/getting-started.md
       - Plugins: libraries/liquidbt/plugins.md
     - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
+    - "parse-repr": libraries/parse-repr.md
     - Perf:
       - Introduction: libraries/perf/index.md
       - Patterns: libraries/perf/patterns.md
