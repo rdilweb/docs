@@ -79,6 +79,16 @@ The following values can only be used in `v2.0.0` and above:
     to documentation, and it helps for users to know
     what to read for more information about the library.
 
+## Related Documents
+
+You can read the proposals written for this project here:
+
+* [PDF](/proposals/lcpy/lcpy_project_proposal.pdf)
+* [RTF (Rich Text Format)](/proposals/lcpy/lcpy_project_proposal.rtf)
+* [EPUB](/proposals/lcpy/lcpy_project_proposal.epub)
+* [DOCX (Microsoft Word Document)](/proposals/lcpy/lcpy_project_proposal.docx)
+* [ODT (OpenDocument Format)](/proposals/lcpy/lcpy_project_proposal.odt)
+
 ## Source
 
 The source can be found [on GitHub](https://github.com/RDIL/lcpy).
