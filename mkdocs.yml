@@ -32,7 +32,12 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      user: rdilweb
+      repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
@@ -59,13 +64,13 @@ remote_branch: master
 extra:
   social:
     - type: 'home'
-      link: 'https://rdil.rocks'
+      link: 'https://rdil.rocks/'
     - type: 'github'
-      link: 'https://github.com/rdilweb'
+      link: 'https://github.com/rdilweb/'
     - type: 'gitlab'
-      link: 'https://gitlab.com/rdil'
+      link: 'https://gitlab.com/rdil/'
     - type: 'twitter'
-      link: 'https://twitter.com/rdil_pickle'
+      link: 'https://twitter.com/rdil_pickle/'
 
 nav:
   - Home: index.md
@@ -96,5 +101,8 @@ nav:
   - Specifications:
     - DNSR: specs/dnsr.md
     - "Tar Command": specs/tar.md
+  - About:
+    - Me: about/me.md
+    - RDILWeb: about/rdilweb.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
