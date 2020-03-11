@@ -38,8 +38,8 @@ of your `setup.py`, and proceed to step 4.
 ```python
 import liquidbt
 # the build plugin contains the core functionality
-from liquidbt_plugin_build import (
-    PackageConfig, SourceDist, WheelBinaryDist, Build
+from liquidbt.build_tools.typeClasses import (
+    PackageConfig, SourceDist, WheelBinaryDist
 )  # most packages opt to make source dists and wheel dists
 
 package_one = BuildConfiguration(
@@ -50,13 +50,6 @@ package_one = BuildConfiguration(
     formats=[SourceDist(), WheelBinaryDist()]
 )
 
-# You can create a new PackageConfig for
-# every package if this is a monorepo, and
-# add them here.
-my_packages = [
-    package_one
-]
-
 """
 The plugins all handle functionality, liquidbt.main
 is just a wrapper to delegate tasks to the loaded plugins.
@@ -64,9 +57,7 @@ You can also add any plugins to this list after build,
 since most plugins require the build plugin to be in memory
 for one reason or another.
 """
-liquidbt.main(plugins=[
-    Build(my_packages)
-])
+liquidbt.main(package_one)
 ```
 
 You have now migrated. You can now run `setup.py` to build,
