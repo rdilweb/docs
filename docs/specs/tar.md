@@ -11,6 +11,7 @@ Here is a basic guide to the Unix `tar` command.
 * `s` - Preserve order of files
 * `v` - Verbose mode (extra output)
 * `z` - (De)compress archive with Gzip
+* `w` - Ask before performing actions that could be destructive
 
 ## Examples
 
