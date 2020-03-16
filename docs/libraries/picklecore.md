@@ -63,6 +63,7 @@ PickleCore is (most likely) the most customizable-out-of-the-box theme out in th
 * `no_extra_css` - prevent custom stylesheets (see below) from being loaded (defaults to `false`)
 * `no_extra_head` - prevent custom metadata (see below) from being loaded (defaults to `false`)
 * `pgp` - a link to a public PGP key (for the sidebar)
+* `license_page` - a link to a page containing license information (for some search engines)
 
 ### SEO
 
