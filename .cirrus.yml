@@ -8,7 +8,6 @@ Deploy_task:
   deps_script: |
     python3 -m pip install --upgrade pip
     python3 -m pip install --upgrade -r requirements.txt
-  build_script: mkdocs build
   deploy_script: |
     git config --global user.name "Cirrus CI"
     git config --global user.name "deploy@rdil.rocks"
