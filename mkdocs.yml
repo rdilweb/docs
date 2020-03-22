@@ -5,9 +5,9 @@ theme:
   palette:
     primary: 'cyan'
     accent: 'indigo'
-  feature:
-    tabs: false
   favicon: /favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   logo: assets/34555510.png
 
 repo_name: 'rdilweb/docs'
@@ -63,13 +63,13 @@ remote_branch: master
 
 extra:
   social:
-    - type: 'home'
+    - icon: 'fontawesome/solid/home'
       link: 'https://rdil.rocks/'
-    - type: 'github'
+    - icon: 'fontawesome/brands/github'
       link: 'https://github.com/rdilweb/'
-    - type: 'gitlab'
+    - icon: 'fontawesome/brands/gitlab'
       link: 'https://gitlab.com/rdil/'
-    - type: 'twitter'
+    - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/rdil_pickle/'
 
 nav:
