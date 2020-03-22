@@ -58,7 +58,7 @@ plugins:
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
 site_author: Reece Dunham
-copyright: Copyright (©) Reece Dunham 2019-present
+copyright: Copyright (©) Reece Dunham 2019-present.
 remote_branch: master
 
 extra:
@@ -104,5 +104,6 @@ nav:
   - About:
     - Me: about/me.md
     - RDILWeb: about/rdilweb.md
+    - "Support Policy": about/support-policy.md
   - "Code of Conduct": CODE_OF_CONDUCT.md
   - "Docs License": LICENSE.md
