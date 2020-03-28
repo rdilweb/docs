@@ -66,7 +66,7 @@ extra:
     - icon: 'fontawesome/solid/home'
       link: 'https://rdil.rocks/'
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/rdilweb/'
+      link: 'https://github.com/rdil/'
     - icon: 'fontawesome/brands/gitlab'
       link: 'https://gitlab.com/rdil/'
     - icon: 'fontawesome/brands/twitter'
@@ -101,6 +101,8 @@ nav:
   - Specifications:
     - DNSR: specs/dnsr.md
     - "Tar Command": specs/tar.md
+  - Tutorials:
+    - "Cirrus Builder": tutorials/cirrusbuilder/index.md
   - About:
     - Me: about/me.md
     - RDILWeb: about/rdilweb.md
