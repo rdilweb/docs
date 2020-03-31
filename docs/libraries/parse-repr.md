@@ -34,11 +34,11 @@ yarn add parse-repr
 
 ## API
 
-### `constructor(repr)`
+### `constructor(repr: string)`
 
 Basic constructor.
 
-> **Argument** repr (String): The unparsed repr.
+> **Argument** repr (string): The unparsed repr.
 > 
 > **Throws `Error`**: If you don't pass a repr or pass undefined.
 
@@ -47,17 +47,17 @@ Basic constructor.
 Parses the repr.
 This is automatically called by the constructor and should only be called if you change the repr.
 
-### `getObjectTypeName()`
+### `getObjectTypeName(): string`
 
 Get the name of the object type (e.g. in `"<User me>"`, the object type would be "User").
 
 > **Returns**: The name of the object type
 
-### `getUnparsedRepr()`
+### `getUnparsedRepr(): string`
 
 > **Returns**: The unparsed repr.
 
-### `getParts()`
+### `getParts(): string[]`
 
 Get the repr parts.
 In the case your repr looks like `"<User 123456 Billy>"`,
