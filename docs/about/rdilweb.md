@@ -36,4 +36,3 @@ Here is a list of all the open source RDILWeb projects, and their statusus:
 | @rdilweb/webkit | Pythonic web development toolkit. | Stable |
 | @rdilweb/Flask-Talisman-RDIL | Fork of Flask-Talisman by Thea Flowers used on my backend server. | Stable |
 | @rdilweb/cirrus-builder-v2 | Cirrus CI configuration builder in webapp form. | Active |
-| @rdilweb/IndexCDN | Create index pages for your CDN. | Prototype |

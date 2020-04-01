@@ -24,3 +24,25 @@ The production version is hosted at `https://backend.rdil.rocks/`.
 ## Source
 
 To prevent abuse, the server's source is no longer public.
+
+## Privacy Policy
+
+!!! warning
+    These details only apply to `backend.rdil.rocks`.
+
+When you make a request to the API, your request is processed by [Cloudflare](https://cloudflare.com/privacypolicy/), and then us.
+We do keep logs of visits, which are one-line strings that contain the following infomation:
+
+* The IP that made the request
+* The timestamp
+* The request method (e.g. `GET` or `POST`)
+* The HTTP protocol version you are using
+* The response code (e.g. `200` or `404`)
+* The requested endpoint
+* Your user agent
+* How long it took the server to provide a response in seconds
+
+In addition, we make these promises about the data:
+
+* We *do not* keep these logs more than two months.
+* We *do not* sell this data.
