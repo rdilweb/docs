@@ -27,8 +27,8 @@ A file is represented with an instance of `filehandlers.AbstractFile`.
 ### Manipulation
 
 Now, say you want to change that file... that is where the `filehandlers.FileManipulator` class comes in.
-You need to pass the `AbstractFile` instance when creating a `FileManipulator` because
-otherwise the manipulator can't do it's job.
+You need to pass the `AbstractFile` instance when creating a `FileManipulator` so filehandlers knows exactly
+which file it is controlling.
 
 The manipulator includes code for a number of common functions that could be replicated with other code, but the goal of creating
 this model/API is to simplify it!
@@ -49,7 +49,7 @@ my_cool_files_changer = FileManipulator(my_cool_file)
 
 # write data to file 5 times
 for i in range(5):
-    my_cool_files_changer.wrap_file().write("Message #" + i + ": " + debug_message)
+    my_cool_files_changer.write_to_file("Message #" + i + ": " + debug_message)
 ```
 
 and that is it!
