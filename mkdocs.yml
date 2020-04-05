@@ -73,7 +73,7 @@ extra:
       link: 'https://twitter.com/rdil_pickle/'
 
 extra_css:
-  - assets/docstrings.min.css
+  - assets/stylesheets/docstrings.min.css
 
 nav:
   - Home: index.md

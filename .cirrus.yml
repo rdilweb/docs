@@ -13,3 +13,14 @@ Deploy_task:
     git config --global user.name "deploy@rdil.rocks"
     git remote set-url origin https://$DEPLOY_TOKEN@github.com/rdilweb/docs/
     mkdocs gh-deploy --force --remote-branch gh-pages
+
+task:
+  name: PR Build
+  only_if: $CIRRUS_PR != ""
+  deps_script: |
+    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade -r requirements.txt
+  build_script: |
+    mkdocs build
+  deploy_preview_artifacts:
+    path: site
