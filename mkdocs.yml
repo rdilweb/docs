@@ -8,7 +8,7 @@ theme:
   favicon: /favicon.ico
   icon:
     repo: fontawesome/brands/github
-  logo: assets/34555510.png
+  logo: assets/images/34555510.png
 
 repo_name: 'rdilweb/docs'
 repo_url: 'https://github.com/rdilweb/docs'
@@ -112,4 +112,5 @@ nav:
     - "Support Policy": about/support-policy.md
     - "Code of Conduct": CODE_OF_CONDUCT.md
     - "Security Policy": SECURITY.md
+    - "Project Archive": about/project-archive.md
   - "Docs License": LICENSE.md
