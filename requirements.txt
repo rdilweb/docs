@@ -1,5 +1,5 @@
 # docs requirements:
-mkdocs-material==5.0.0rc4
+mkdocs-material==5.0.1
 mkdocs==1.1
 mkdocs-git-revision-date-localized-plugin==0.5.0
 mkdocs-minify-plugin==0.2.3
