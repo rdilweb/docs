@@ -88,7 +88,9 @@ nav:
     - filehandlers:
         - Home: libraries/filehandlers/index.md
         - "API Reference": libraries/filehandlers/api.md
-    - intutils: libraries/intutils.md
+    - intutils:
+        - Home: libraries/intutils/index.md
+        - "API Reference": libraries/intutils/api.md
     - lcpy: libraries/lcpy.md
     - LiquidBT:
       - Introduction: libraries/liquidbt/intro.md
