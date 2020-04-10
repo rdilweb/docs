@@ -53,3 +53,10 @@ Source: @gitlab:rdil/skyblock-minion-calc
 
 A calculator for the cost of some minions in Hypixel Skyblock.
 It has been archived because much better tools exist.
+
+## EduAid
+
+Source: @gitlab:rdil/EduAid
+
+An open source and privacy centered replacement for Google Classroom.
+It has been archived because I simply can't continue development due to time constraints.
