@@ -24,29 +24,29 @@ from liquidbt.plugins import Plugin
 In this class, you can override any of the mentioned fields in the up-to-date API reference.
 4. Instruct your users to import and use your plugin. Easy as that.
 
-By default, plugins only can add, but using the build plugin, you can change functionality.
-See [Transformer Plugins](#transformer-plugins).
-
 ### Transformer Plugins
 
 A transformer plugin is a plugin that can change the code
 (*not the source*, the code that is compiled by setuptools).
 
-To make a transformer, your plugin must extend a different class then typical plugins:
+To make a transformer, you need to set your plugin up like this:
 
 ```python
-from liquidbt.plugins import TransformerPlugin
+from liquidbt.plugins import Plugin
 
-class MyPlugin(TransformerPlugin):
-    # ...
+class MyPlugin(Plugin):
+    def transform(code):
+        # code will be a multiline string of the source code
+
+        # the string returned will be given to setuptools
+        return code
+
+    def load(ctx):
+        self.ctx = ctx
+        self.ctx.register_transformer(self.transform)
 ```
 
-!!! tip "Class Inheritence"
-    The `TransformerPlugin` class extends the plugin class,
-    so any functions you can add to `Plugin`s can also be
-    added to `TransformerPlugin`s.
-
-To actually change the code, you will need to add the `process_code(code: str) -> str` method to the class.
+To change the code, you will need to add the `process_code(code: str) -> str` method to the class.
 This method accepts the parameter `code`, which is a multiline string of the current file being evaluated's
 contents. It must return the changed version of the code (also a multiline string).
 
@@ -59,12 +59,3 @@ contents. It must return the changed version of the code (also a multiline strin
     change anything. **But do not return `None` or something
     like it**, as the *file's code will be composed of
     what you returned*.
-
-!!! danger "Dangers of Creating Transformer Plugins"
-    While the `TransformerPlugin` class API is in
-    LiquidBT's core package, it isn't actually implemented
-    there (other then checking if any of the plugins are
-    transformers, to prevent potential issues).
-    The build plugin **must be loaded before any transformers**,
-    otherwise errors will be thrown. This means instructing users
-    to put the build plugin *first* in the `plugin` list.

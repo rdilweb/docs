@@ -27,7 +27,7 @@ If you are using setuptools right now, you can change over pretty easily.
 2. Change the directory that the source is in (*not* the root directory)'s
 name to include a `.s` at the end. Don't make it a file, just add the `.s` suffix
 to the folder's name. This tells LiquidBT that you want this to be the source directory.
-3. You will need to basically rewrite your `setup.py` to fit LiquidBT's API.
+3. You will need to rewrite your `setup.py` to fit LiquidBT's API.
 First, copy the arguments you pass to `setuptools.setup`, and save it somewhere
 you can use it. *You will need them later*. Once you do this, you can delete the contents
 of your `setup.py`, and proceed to step 4.
@@ -57,7 +57,7 @@ You can also add any plugins to this list after build,
 since most plugins require the build plugin to be in memory
 for one reason or another.
 """
-liquidbt.main(package_one)
+liquidbt.main(packages=[package_one])
 ```
 
 You have now migrated. You can now run `setup.py` to build,
