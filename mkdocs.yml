@@ -108,6 +108,7 @@ nav:
     - DNSR: specs/dnsr.md
     - "Tar Command": specs/tar.md
   - Tutorials:
+    - "better-wsfull": tutorials/better-wsfull/index.md
     - "Cirrus Builder": tutorials/cirrusbuilder/index.md
   - About:
     - Me: about/me.md
