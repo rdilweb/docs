@@ -29,11 +29,11 @@ Potential fields:
 
 A namespace for the domain's DNS records.
 
-### `records.{TYPE}`
+#### `{TYPE}`
 
 A namespace for all the records with a certain `{TYPE}`, for example `A` or `CNAME`.
 
-#### `records.{TYPE}.{SUBDOMAIN}`
+##### `{SUBDOMAIN}`
 
 ??? important "Naming the `{SUBDOMAIN}`"
     Note: `{SUBDOMAIN}` can be "@" for the root domain. It can also be a string if you are using
