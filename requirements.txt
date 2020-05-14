@@ -3,7 +3,7 @@ mkdocs-material==5.1.6
 mkdocs==1.1.1
 mkdocs-git-revision-date-localized-plugin==0.5.2
 mkdocs-minify-plugin==0.3.0
-mkdocstrings==0.11.0
+mkdocstrings==0.11.1
 mkdocs-plugin-progress==1.1.4
 
 # modules needed to get automatically documented:
