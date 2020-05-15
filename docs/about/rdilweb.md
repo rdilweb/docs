@@ -10,7 +10,6 @@ RDILWeb owns and operates the following domains:
 * rdil.rocks
 * hyperiumjailbreak.com
 * cakebot.club
-* annieapp.co
 
 ## DNS
 
@@ -26,14 +25,14 @@ Here is a list of all the open source RDILWeb projects, and their statusus:
 | @rdilweb/PickleCore | A cool Jekyll theme built for rdil.rocks. | Active |
 | @rdilweb/DNS-Records | RDILWeb's DNS records. | Active |
 | @rdilweb/privacy | A site for all my thoughts, ideas, and rants related to privacy. | Active |
-| @rdilweb/cirrus-builder-v2 | Cirrus CI configuration builder in webapp form. | Active |
-| @rdilweb/static-server | An easy and basic static server. | Stable |
-| @rdilweb/mkdocs-plugin-progress | A plugin for MkDocs that lets you know exactly what is happening during the build. | Stable |
-| @rdilweb/webkit | Pythonic web development toolkit. | Stable |
-| @rdilweb/intutils | Basic Python integer toolkit. | Stable |
-| @rdilweb/cra-template-ready | Ready-to-use Create React App template, so you can ignore the useless files and get right to coding. | Stable |
-| @rdilweb/Flask-Talisman-RDIL | Fork of Flask-Talisman by Thea Flowers used on my backend server. | Stable |
-| @rdilweb/skyblock-minion-calc | A calculator for prices of different minions in Hypixel Skyblock. | Unsupported |
-| @rdilweb/am-i-cool.pw | A dumb website. | Unsupported |
-| @rdilweb/Flask-ColoredLogging | Extension for Flask that adds colorful logging to the console! | Unsupported |
-| @rdilweb/Classroom-Dark | Google Classroom dark theme. | Alpha Phase |
+| @rdilweb/cirrus-builder-v2 | Cirrus CI configuration builder in webapp form. | :white_check_mark: Stable |
+| @rdilweb/static-server | An easy and basic static server. | :white_check_mark: Stable |
+| @rdilweb/mkdocs-plugin-progress | A plugin for MkDocs that lets you know exactly what is happening during the build. | :white_check_mark: Stable |
+| @rdilweb/webkit | Pythonic web development toolkit. | :white_check_mark: Stable |
+| @rdilweb/intutils | Basic Python integer toolkit. | :white_check_mark: Stable |
+| @rdilweb/cra-template-ready | Ready-to-use Create React App template, so you can ignore the useless files and get right to coding. | :white_check_mark: Stable |
+| @rdilweb/Flask-Talisman-RDIL | Fork of Flask-Talisman used on my backend server. | :white_check_mark: Stable |
+| @rdilweb/skyblock-minion-calc | A calculator for prices of different minions in Hypixel Skyblock. | :x: Archived |
+| @rdilweb/am-i-cool.pw | A dumb website. | :x: Archived |
+| @rdilweb/Flask-ColoredLogging | Extension for Flask that adds colorful logging to the console! | :x: Archived |
+| @rdilweb/Classroom-Dark | Google Classroom dark theme. | :warning: Alpha |
