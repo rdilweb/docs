@@ -4,6 +4,10 @@ Better workspace-full is a fork of Gitpod's workspace-full (see [gitpod-io/works
 
 It has multiple quality-of-life changes over the normal workspace-full.
 
+## OS
+
+Unlike workspace-full, better-wsfull uses Debian instead of Ubuntu, which saves roughly 300 megabytes from the final image.
+
 ## Using
 
 To use the image, start a workspace in Gitpod, and create a `.gitpod.yml` file if you don't have one already.
@@ -24,13 +28,13 @@ Here are some languages and frameworks we may or may not support.
 
 We support Python just like the upstream image.
 
-One change we have made is we don't use Pyenv, but instead build our version of Python from source.
+One change we have made is we don't use Pyenv, but instead use Python as a base image.
 
 This fixes a lot of issues caused by Pyenv.
 
-## Apache2, PHP, Nginx
+## Apache2, PHP, Nginx, Rust
 
-Apache2, PHP, and Nginx have been removed in an effort to save space. You can always add them back.
+Apache2, PHP, Nginx, and Rust have been removed in an effort to save space. You can always add them back.
 
 ## Ruby
 
@@ -47,3 +51,11 @@ Node.js comes preinstalled, along with [npm](https://npmjs.com/), [npx](https://
 ## Homebrew
 
 [Homebrew for Linux](https://brew.sh/) comes preinstalled.
+
+## C
+
+`gcc`, `llvm`, and other C/C++ tools come preinstalled.
+
+## Java
+
+Java (a recent AdoptOpenJDK version), Maven, and Gradle come preinstalled.
