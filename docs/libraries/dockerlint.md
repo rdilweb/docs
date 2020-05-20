@@ -6,7 +6,7 @@ dockerlint is a tool that allows you to analyze Docker images for issues related
 
 * Very quick
 * Works on Linux and macOS (Windows support coming soon)
-* Analyze images based on `alpine`, `ubuntu`, `debian`, and more
+* Analyze images based on AlpineLinux, Ubuntu, Debian, and more
 * Export results in the popular JUnit format
 
 ## Requirements

@@ -17,13 +17,25 @@ A simple static web server.
 
 Run this in a terminal:
 
-```bash
-npm i -g static-server-rdil
-```
+=== "npm"
+    ```bash
+    npm install -g static-server-rdil
+    ```
 
-!!! warning "Unless..."
-    You are using a temporary package executor, such as `npx` or `yarn dlx`.
-    In that case, skip to the usage section.
+=== "Yarn"
+    ```bash
+    yarn global add static-server-rdil
+    ```
+
+=== "npx"
+    ```bash
+    npx static-server-rdil [OPTIONS HERE]
+    ```
+
+=== "yarn dlx"
+    ```bash
+    yarn dlx static-server-rdil [OPTIONS HERE]
+    ```
 
 ## Usage
 
@@ -31,20 +43,6 @@ Run this in a terminal:
 
 ```bash
 static-server-rdil [OPTIONS HERE]
-```
-
-Or, for more portability, use one of these commands depending on which package manager you prefer:
-
-### `npx`
-
-```bash
-npx static-server-rdil [OPTIONS HERE]
-```
-
-### `yarn dlx`
-
-```bash
-yarn dlx static-server-rdil [OPTIONS HERE]
 ```
 
 ## Configuration

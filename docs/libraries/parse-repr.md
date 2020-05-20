@@ -6,15 +6,15 @@ A lightweight Python `__repr__` parser for JavaScript.
 
 Run this in a terminal:
 
-```bash
-npm install parse-repr
-```
+=== "npm"
+    ```bash
+    npm install parse-repr
+    ```
 
-or, with Yarn:
-
-```bash
-yarn add parse-repr
-```
+=== "Yarn"
+    ```bash
+    yarn add parse-repr
+    ```
 
 ## Usage
 

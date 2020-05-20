@@ -4,11 +4,10 @@
 
 ## Installation
 
-Install the plugin using `pip` with the following command:
+The name of the package on PyPI is `mkdocs-plugin-progress`.
 
-```sh
-pip install mkdocs-plugin-progress
-```
+!!! tip "Installing Packages"
+    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
 
 Next, add the following lines to your `mkdocs.yml`:
 

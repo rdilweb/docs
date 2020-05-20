@@ -8,16 +8,10 @@ LiquidBT requires Python 3.4 or later to be installed on your system.
 
 ## Install
 
-To install, execute the command listed under your system's name:
+The name of the package on PyPI is `liquidbt`.
 
-??? note "macOS"
-    `sudo python3 -m pip install --upgrade liquidbt`
-
-??? note "Linux"
-    `python3 -m pip install --upgrade --user liquidbt`
-
-??? note "Windows"
-    `python -m pip install --upgrade --user liquidbt`
+!!! tip "Installing Packages"
+    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
 
 ## Migrating From setuptools
 
