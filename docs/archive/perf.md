@@ -1,13 +1,21 @@
-# Patterns
+# Perf
+
+<div align="center">
+    <img src="/assets/images/Perf_logo.png" width=300 height=300 alt="Perf Logo" />
+</div>
+
+Don't frustrate people by building slow software, build software, and let Perf monitor performance.
+
+## Detected Patterns
 
 Here are the patterns the tool recognises, and how to fix them.
 
-## Enumeration - Slow Duplicate Checking
+### Enumeration - Slow Duplicate Checking
 
 You are using a slow way of duplicate checking between 2 lists.
 Use [this](https://stackoverflow.com/a/17735466) instead.
 
-## String Joining
+### String Joining
 
 Joining strings can be very slow, even when the strings are small.
 
@@ -37,7 +45,7 @@ mylastname = "Dunham"
 myfullname = " ".join([myname, mylastname])
 ```
 
-## Importing
+### Importing
 
 Every time you import a module in Python, a process is run that essentially pulls the module in.
 The only problem with it is that it has to actually pull all the methods in, which can be time consuming.
@@ -61,3 +69,7 @@ As you can see, just importing 3 packages can take a full second!
 
 So when possible, you should limit the number of imports you have.
 Any file that has more then 15 will be flagged by Perf.
+
+## Source
+
+The source can be found [on GitHub](https://github.com/RDIL/Perf).

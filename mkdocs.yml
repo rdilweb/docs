@@ -113,7 +113,5 @@ nav:
     - "Security Policy": SECURITY.md
     - "Project Archive": about/project-archive.md
   - Archive:
-    - Perf:
-      - Introduction: archive/perf/index.md
-      - Patterns: archive/perf/patterns.md
+    - Perf: archive/perf.md
   - "Docs License": LICENSE.md
