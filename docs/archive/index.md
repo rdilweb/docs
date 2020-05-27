@@ -1,6 +1,6 @@
 # RDIL Project Archive
 
-Here you can view some of my projects that have reached the [Deprecated / Unsupported status](./support-policy.md#deprecated-unsupported).
+Here you can view some of my projects that have reached the [Deprecated / Unsupported status](../about/support-policy.md#deprecated-unsupported).
 
 ## Snowfall
 

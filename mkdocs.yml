@@ -22,7 +22,6 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
-  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.critic
@@ -111,7 +110,7 @@ nav:
     - "Support Policy": about/support-policy.md
     - "Code of Conduct": CODE_OF_CONDUCT.md
     - "Security Policy": SECURITY.md
-    - "Project Archive": about/project-archive.md
   - Archive:
+    - Home: archive/index.md
     - Perf: archive/perf.md
   - "Docs License": LICENSE.md
