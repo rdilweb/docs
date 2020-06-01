@@ -9,3 +9,4 @@ mkdocs-plugin-progress==1.1.4
 # modules needed to get automatically documented:
 filehandlers
 intutils
+liquidbt
