@@ -56,6 +56,4 @@ contents. It must return the changed version of the code (also a multiline strin
     out all code (bear with me here), and you want to
     skip certain files) you can just return the `code`
     parameter, which will ensure that your plugin doesn't
-    change anything. **But do not return `None` or something
-    like it**, as the *file's code will be composed of
-    what you returned*.
+    change anything.

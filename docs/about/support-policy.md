@@ -1,6 +1,6 @@
 # Support Policy
 
-!!! caution "nCOVID-19 Impact"
+!!! caution "COVID-19 Impact"
     Due to the current crisis we are facing, I have very limited availability to answer issues and check out pull requests.
     I will try to when I can, but I cannot promise you will receive a response at this time. Thank you for understanding.
 

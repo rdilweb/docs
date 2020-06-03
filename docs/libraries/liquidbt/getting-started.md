@@ -44,14 +44,8 @@ package_one = BuildConfiguration(
     formats=[SourceDist(), WheelBinaryDist()]
 )
 
-"""
-The plugins all handle functionality, liquidbt.main
-is just a wrapper to delegate tasks to the loaded plugins.
-You can also add any plugins to this list after build,
-since most plugins require the build plugin to be in memory
-for one reason or another.
-"""
-liquidbt.main(packages=[package_one])
+# The plugins all handle functionality, liquidbt.main just gets things rolling.
+liquidbt.main(packages=[package_one], plugins=[])
 ```
 
 You have now migrated. You can now run `setup.py` to build,
