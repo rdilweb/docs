@@ -35,7 +35,7 @@ We do keep logs of visits, which are one-line strings that contain the following
 
 * The IP that made the request
 * The timestamp
-* The request method (e.g. `GET` or `POST`)
+* The request method (e.g. `POST`)
 * The HTTP protocol version you are using
 * The response code (e.g. `200` or `404`)
 * The requested endpoint
