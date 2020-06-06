@@ -67,4 +67,4 @@ By now, we are done adding scripts. Time to get the generated YAML for your repo
 
 To finalize the configuration, simply press the export button.
 
-You can finish off by copying the YAML from the text editor into your repository's `.cirrus.yml` file - and committing.
+Lastly, copy the YAML from the text editor into your repository's `.cirrus.yml` file and commit.

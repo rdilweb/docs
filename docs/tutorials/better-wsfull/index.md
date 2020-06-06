@@ -50,7 +50,7 @@ Node.js comes preinstalled, along with [npm](https://npmjs.com/), [npx](https://
 
 ## Homebrew
 
-[Homebrew for Linux](https://brew.sh/) comes preinstalled.
+[Homebrew](https://brew.sh/) comes preinstalled.
 
 ## C
 
