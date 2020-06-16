@@ -17,13 +17,6 @@ Source: @gitlab:rdil/am-i-cool.pw
 Just a dumb website in general.
 It has been archived because it is no longer hosted.
 
-## Skyblock Leak
-
-Source: @gitlab:rdil/skyblock-dungeons-leak
-
-Images of a dungeons leak!
-It has been archived because there are no longer any leaked images to add.
-
 ## SpaceGameThing
 
 Source: @gitlab:rdil/SpaceGameThing
