@@ -32,11 +32,6 @@ Run this in a terminal:
     npx static-server-rdil [OPTIONS HERE]
     ```
 
-=== "yarn dlx"
-    ```bash
-    yarn dlx static-server-rdil [OPTIONS HERE]
-    ```
-
 ## Usage
 
 Run this in a terminal:
