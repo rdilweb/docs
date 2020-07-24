@@ -28,7 +28,6 @@ Here is a list of all the open source RDILWeb projects, and their statusus:
 | @rdilweb/cirrus-builder-v2 | Cirrus CI configuration builder in webapp form. | :white_check_mark: Stable |
 | @rdilweb/static-server | An easy and basic static server. | :white_check_mark: Stable |
 | @rdilweb/mkdocs-plugin-progress | A plugin for MkDocs that lets you know exactly what is happening during the build. | :white_check_mark: Stable |
-| @rdilweb/webkit | Pythonic web development toolkit. | :white_check_mark: Stable |
 | @rdilweb/intutils | Basic Python integer toolkit. | :white_check_mark: Stable |
 | @rdilweb/cra-template-ready | Ready-to-use Create React App template, so you can ignore the useless files and get right to coding. | :white_check_mark: Stable |
 | @rdilweb/Flask-Talisman-RDIL | Fork of Flask-Talisman used on my backend server. | :x: Archived |
