@@ -4,7 +4,7 @@ Getting started is relatively simple. Just install, configure, and use.
 
 ## Prerequisits
 
-LiquidBT requires Python 3.4 or later to be installed on your system.
+LiquidBT requires Python 3.4 or later.
 
 ## Install
 
@@ -22,8 +22,8 @@ If you are using setuptools right now, you can change over pretty easily.
 name to include a `.s` at the end. Don't make it a file, just add the `.s` suffix
 to the folder's name. This tells LiquidBT that you want this to be the source directory.
 3. You will need to rewrite your `setup.py` to fit LiquidBT's API.
-First, copy the arguments you pass to `setuptools.setup`, and save it somewhere
-you can use it. *You will need them later*. Once you do this, you can delete the contents
+First, copy the arguments you pass to `setuptools.setup`, and save it,
+*You will need them later*. Once you do this, you can delete the contents
 of your `setup.py`, and proceed to step 4.
 4. If your saved setuptools config has any of these fields, remove them from your backup:
 `name`, `include_package_data`, `zip_safe`, `packages`.
