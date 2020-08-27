@@ -103,6 +103,7 @@ nav:
   - Tutorials:
     - "better-wsfull": tutorials/better-wsfull/index.md
     - "Cirrus Builder": tutorials/cirrusbuilder/index.md
+  - Javadocs: javadocs/index.md
   - About:
     - Me: about/me.md
     - RDILWeb: about/rdilweb.md
