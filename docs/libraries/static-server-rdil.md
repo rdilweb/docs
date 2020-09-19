@@ -42,18 +42,7 @@ static-server-rdil [OPTIONS HERE]
 
 ## Configuration
 
-To configure specific behavior, you can pass any of these options via the command line (all are optional):
-
-* `--port <PORT>`: port number, defaults to `3000`.
-* `--root <DIRECTORY>`: root folder to serve, defaults to the working directory.
-* `--no-request-logging`: if this option is present, `Serving /<path>` messages will not be outputted to the console.
-* `--no-emojis`: if this option is present, emojis will not be outputted to the console.
-* `--ignore-errors`: if this option is present, server errors won't be outputted to the console.
-* `--enhanced-security`: if this option is present, headers for extra security will be sent with responses.
-* `--no-render-markdown`: if this option is present, Markdown to HTML rendering will be disabled.
-* `--quiet`: if this option is present, request logging and errors will be silenced.
-
-(If an option doesn't have a visible input after it, it is a switch.)
+To configure specific options, please see the help menu by running `static-server-rdil --help`.
 
 ### Example
 
