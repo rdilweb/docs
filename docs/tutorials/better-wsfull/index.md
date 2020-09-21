@@ -2,7 +2,7 @@
 
 Better workspace-full is a fork of Gitpod's workspace-full (see [gitpod-io/workspace-images](github:gitpod-io/workspace-images)).
 
-It has multiple quality-of-life changes over the normal workspace-full.
+It has multiple quality-of-life changes over the normal workspace-full, and is a ton smaller.
 
 ## OS
 
@@ -16,15 +16,15 @@ In the file, add this line: `image: rdilpickle/better-wsfull`.
 If you already have an `image` object, just replace it with the string definition.
 Next commit and push your changes.
 
-!!! warning "Application of Image"
-    The image **will not take effect until you create a new workspace from the repository after
+!!! warning "Applying the image"
+    The image will not take effect until you create a new workspace from the repository after
     you commit the `.gitpod.yml`.
 
 ## Language/Framework Support
 
 Here are some languages and frameworks we may or may not support.
 
-## Python
+### Python
 
 We support Python just like the upstream image.
 
@@ -32,30 +32,18 @@ One change we have made is we don't use Pyenv, but instead use Python as a base 
 
 This fixes a lot of issues caused by Pyenv.
 
-## Apache2, PHP, Nginx, Rust
-
-Apache2, PHP, Nginx, and Rust have been removed in an effort to save space. You can always add them back.
-
-## Ruby
-
-Ruby comes preinstalled, along with [RVM](https://rvm.io/), [RubyGems](https://rubygems.org/), [Bundler](https://bundler.io/), and Solargraph.
-
-## Go
-
-Golang comes preinstalled, along with a number of handy packages that can aide in your development experience.
-
-## Node.js
+### Node.js
 
 Node.js comes preinstalled, along with [npm](https://npmjs.com/), [npx](https://github.com/npm/npx/), [TypeScript (tsc)](https://typescriptlang.org/), and [Yarn v1](https://classic.yarnpkg.com/).
 
-## Homebrew
+### Homebrew
 
 [Homebrew](https://brew.sh/) comes preinstalled.
 
-## C
+### C
 
-`gcc`, `llvm`, and other C/C++ tools come preinstalled.
+`gdb` comes preinstalled.
 
-## Java
+### Java
 
-Java (a recent AdoptOpenJDK version), Maven, and Gradle come preinstalled.
+Java 8 (a recent AdoptOpenJDK version), Maven, and Gradle come preinstalled.
