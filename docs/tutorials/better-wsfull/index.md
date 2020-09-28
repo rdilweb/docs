@@ -36,10 +36,6 @@ This fixes a lot of issues caused by Pyenv.
 
 Node.js comes preinstalled, along with [npm](https://npmjs.com/), [npx](https://github.com/npm/npx/), [TypeScript (tsc)](https://typescriptlang.org/), and [Yarn v1](https://classic.yarnpkg.com/).
 
-### Homebrew
-
-[Homebrew](https://brew.sh/) comes preinstalled.
-
 ### C
 
 `gdb` comes preinstalled.
