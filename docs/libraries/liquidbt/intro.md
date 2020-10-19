@@ -21,9 +21,3 @@ LiquidBT is an all-in-one replacement for:
 ## Getting Started
 
 See [this guide](./getting-started.md).
-
-----
-
-??? question "Wait, where is `ibind?`"
-    `ibind` has been rebranded to LiquidBT, which
-    is built off of the reminants of `ibind`'s codebase.
