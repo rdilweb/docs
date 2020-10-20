@@ -111,6 +111,5 @@ nav:
     - "Code of Conduct": CODE_OF_CONDUCT.md
     - "Security Policy": SECURITY.md
   - Archive:
-    - Home: archive/index.md
     - Perf: archive/perf.md
   - "Docs License": LICENSE.md
