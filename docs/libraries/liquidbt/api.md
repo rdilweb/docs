@@ -1,3 +1,0 @@
-# LiquidBT API
-
-::: liquidbt
