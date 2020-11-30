@@ -1,7 +1,7 @@
 image: rdilpickle/better-wsfull:latest
 
 ports:
-- port: 8000
+    - port: 8000
 
 tasks:
-  - command: python3 -m pip install --upgrade -r requirements.txt && mkdocs serve
+    - command: python3 -m pip install --upgrade -r requirements.txt && mkdocs serve

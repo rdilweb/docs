@@ -2,6 +2,7 @@
 
 A simple static web server.
 
+<!-- prettier-ignore-start -->
 ??? question "Reece, why should I use this one over any of the others?"
     This is a fair question. As of checking on January 10th 2020, there
     are 68 pages of results for searching 'static server' on npm. This
@@ -15,26 +16,24 @@ A simple static web server.
 
 ## Installing
 
+:material-cloud-download: npm Package: [static-server-rdil](https://npmjs.com/package/static-server-rdil)
+
 Run this in a terminal:
 
 === "npm"
-    ```bash
-    npm install -g static-server-rdil
-    ```
+    `npm install -g static-server-rdil`
 
 === "Yarn"
-    ```bash
-    yarn global add static-server-rdil
-    ```
+    `yarn global add static-server-rdil`
 
 === "npx"
-    ```bash
-    npx static-server-rdil [OPTIONS HERE]
-    ```
+    `npx static-server-rdil [OPTIONS HERE]`
+
+<!-- prettier-ignore-end -->
 
 ## Usage
 
-Run this in a terminal:
+To use the server, just run:
 
 ```bash
 static-server-rdil [OPTIONS HERE]

@@ -1,3 +1,3 @@
-# `filehandlers` API Reference
+# filehandlers API Reference
 
 ::: filehandlers

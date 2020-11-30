@@ -9,7 +9,7 @@ The production version is hosted at `https://backend.rdil.rocks/`.
 ## HyperiumJailbreak Specifics
 
 | **HTTP Method** | **Endpoint**                    | **Description**                   |
-|-----------------|---------------------------------|-----------------------------------|
+| --------------- | ------------------------------- | --------------------------------- |
 | `GET`           | `/checkUpdate`                  | Get the latest version of HJB.    |
 | `GET`           | `/getOnline`                    | Get the number of online players. |
 | `GET`           | `/words.txt`                    | Get the NickHider word list.      |
@@ -18,7 +18,7 @@ The production version is hosted at `https://backend.rdil.rocks/`.
 ## Hypixel Timers
 
 | **HTTP Method** | **Endpoint**           | **Description**                           |
-|-----------------|------------------------|-------------------------------------------|
+| --------------- | ---------------------- | ----------------------------------------- |
 | `GET`           | `/timers/dark-auction` | Get the time until the next dark auction. |
 
 ## Source
@@ -28,21 +28,21 @@ To prevent abuse, the server's source is no longer public.
 ## Privacy Policy
 
 !!! warning
-    These details only apply to `backend.rdil.rocks`.
+These details only apply to `backend.rdil.rocks`.
 
 When you make a request to the API, your request is processed by [Cloudflare](https://cloudflare.com/privacypolicy/), and then us.
 We do keep logs of visits, which are one-line strings that contain the following infomation:
 
-* The IP that made the request
-* The timestamp
-* The request method (e.g. `POST`)
-* The HTTP protocol version you are using
-* The response code (e.g. `200` or `404`)
-* The requested endpoint
-* Your user agent
-* How long it took the server to provide a response in seconds
+-   The IP that made the request
+-   The timestamp
+-   The request method (e.g. `POST`)
+-   The HTTP protocol version you are using
+-   The response code (e.g. `200` or `404`)
+-   The requested endpoint
+-   Your user agent
+-   How long it took the server to provide a response in seconds
 
 In addition, we make these promises about the data:
 
-* We *do not* keep these logs more than two months.
-* We *do not* sell this data.
+-   We _do not_ keep these logs more than two months.
+-   We _do not_ sell this data.

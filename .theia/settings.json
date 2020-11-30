@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
 }

@@ -16,9 +16,11 @@ In the file, add this line: `image: rdilpickle/better-wsfull`.
 If you already have an `image` object, just replace it with the string definition.
 Next commit and push your changes.
 
+<!-- prettier-ignore-start -->
 !!! warning "Applying the image"
     The image will not take effect until you create a new workspace from the repository after
     you commit the `.gitpod.yml`.
+<!-- prettier-ignore-end -->
 
 ## Language/Framework Support
 
@@ -29,7 +31,6 @@ Here are some languages and frameworks we may or may not support.
 We support Python just like the upstream image.
 
 One change we have made is we don't use Pyenv, but instead use Python as a base image.
-
 This fixes a lot of issues caused by Pyenv.
 
 ### Node.js

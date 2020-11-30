@@ -2,34 +2,38 @@
 
 A lightweight Python `__repr__` parser for JavaScript.
 
-## Installing
+## Download
+
+:material-cloud-download: npm Package: [parse-repr](https://npmjs.com/package/parse-repr)
 
 Run this in a terminal:
 
+<!-- prettier-ignore-start -->
 === "npm"
-    ```bash
-    npm install parse-repr
-    ```
+    `npm install parse-repr`
 
 === "Yarn"
-    ```bash
-    yarn add parse-repr
-    ```
+    `yarn add parse-repr`
+<!-- prettier-ignore-end -->
 
 ## Usage
 
 1. Import the library into your code:
-  ```js
-  // with es6+ import
-  import ParseRepr from 'parse-repr';
 
-  // or, with require
-  var ParseRepr = require('parse-repr');
-  ```
+```js
+// with es6+ import
+import ParseRepr from "parse-repr"
+
+// or, with require
+var ParseRepr = require("parse-repr")
+```
+
 2. Create an instance of the class, passing the repr in as the only argument:
-  ```js
-  var foo = new ParseRepr('<MyClass example repr here yay>');
-  ```
+
+```js
+var foo = new ParseRepr("<MyClass example repr here>")
+```
+
 3. Access the `ParseRepr` API to get what you need out of it. See the [API section](#api).
 
 ## API
@@ -39,7 +43,7 @@ Run this in a terminal:
 Basic constructor.
 
 > **Argument** repr (string): The unparsed repr.
-> 
+>
 > **Throws `Error`**: If you don't pass a repr or pass undefined.
 
 ### `parse()`

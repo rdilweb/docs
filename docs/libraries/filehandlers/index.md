@@ -2,12 +2,9 @@
 
 `filehandlers` is a library for working with files.
 
-## Installation
+## Download
 
-The name of the package on PyPI is `filehandlers`.
-
-!!! tip "Installing Packages"
-    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
+:material-cloud-download: PyPI Package: [filehandlers](https://pypi.org/project/filehandlers/)
 
 ## Usage
 
@@ -21,8 +18,10 @@ filehandlers is built on a simple model.
 
 A file is represented with an instance of `filehandlers.AbstractFile`.
 
+<!-- prettier-ignore-start -->
 !!! important "Initializing an `AbstractFile`"
     The file doesn't need to exist when creating an instance of `AbstractFile`.
+<!-- prettier-ignore-end -->
 
 ### Manipulation
 

@@ -1,8 +1,12 @@
 # Ruby Library `picklecore`
 
-PickleCore is a Jekyll theme developed by [Reece Dunham](https://github.com/RDIL) ([for his site](https://rdil.rocks)) and [Param Thakkar](https://github.com/paramt).
+PickleCore is a Jekyll theme developed by me ([for my website](https://rdil.rocks)) and [Param Thakkar](https://param.me/).
 
-v1 was recently released, and documentation is not yet written.
+v1 was recently released, and documentation has not yet been written.
+
+## Download
+
+:material-cloud-download: RubyGems: [picklecore](https://rubygems.org/gems/picklecore)
 
 ## Source
 

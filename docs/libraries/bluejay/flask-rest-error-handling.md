@@ -3,7 +3,11 @@
 `flask-rest-error-handling` takes a Flask application object, and configures it to output payloads on errors that look like this:
 
 ```json
-{"status": false, "code": 404, "error": "404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}
+{
+    "status": false,
+    "code": 404,
+    "error": "404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."
+}
 ```
 
 ## Installing

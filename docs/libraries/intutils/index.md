@@ -1,14 +1,11 @@
 # Python Library `intutils`
 
 `intutils` is a small library for manipulating integers.
-If you have any helpful functions that deal with integers, *please* feel free to add them.
+If you have any helpful functions that deal with integers, feel free to add them.
 
-## Installation
+## Download
 
-The name of the package on PyPI is `intutils`.
-
-!!! tip "Installing Packages"
-    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
+:material-cloud-download: PyPI Package: [intutils](https://pypi.org/project/intutils/)
 
 ## Usage
 

@@ -9,14 +9,11 @@ If you find a security vulnerability in one of my projects, please follow these 
 
     ```none
     Subject: (PROJECT NAME HERE) Security Risk
-    
-    HOW TO EXPLOIT
-  
-    Give exact details I can replicate it.
-  
-    OTHER INFORMATION
-  
+
+    Give exact details I can replicate it with.
     If anything else needs to be said, put it here.
+    In cases of security risks, there is no such thing as
+    too little information.
     ```
 
 3. Please be patient. You will get an email back soon.

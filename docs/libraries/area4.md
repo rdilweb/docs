@@ -1,13 +1,10 @@
 # Python Library `area4`
 
-`area4` is a flexible divider library.
+`area4` is a flexible divider library, which doubles as an emoji database.
 
-## Installation
+## Download
 
-The name of the package on PyPI is `area4`.
-
-!!! tip "Installing Packages"
-    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
+:material-cloud-download: PyPI Package: [area4](https://pypi.org/project/area4/)
 
 ## Usage
 

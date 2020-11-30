@@ -4,12 +4,11 @@
 I created this when I was teaching a student Python who kept forgetting to put in proper uppercase letters.
 It is super simple, and has very few drawbacks.
 
-## Installation
+## Download
+
+:material-cloud-download: PyPI Package: [lc-py](https://pypi.org/project/lc-py)
 
 The name of the package on PyPI is `lc-py`. (Sorry, `lcpy` was already taken!)
-
-!!! tip "Installing Packages"
-    See [this guide](https://packaging.python.org/tutorials/installing-packages/) for how to install packages.
 
 ## Usage
 
@@ -35,59 +34,61 @@ from lcpy import false
 
 If you read the [usage section](#usage) and now have a basic understanding, here are the values you can use:
 
-* `true`
-* `false`
-* `none`
-* `exception` (**new** in v1.1.0)
+-   `true`
+-   `false`
+-   `none`
+-   `exception` (**new** in v1.1.0)
 
 The following values can only be used in `v2.0.0` and above:
 
-* `indexerror`
-* `environmenterror`
-* `eoferror`
-* `oserror`
-* `processlookuperror`
-* `fileexistserror`
-* `filenotfounderror`
-* `floatingpointerror`
-* `recursionerror`
-* `referenceerror`
-* `runtimeerror`
-* `arithmeticerror`
-* `assertionerror`
-* `attributeerror`
-* `baseexception`
-* `blockingioerror`
-* `brokenpipeerror`
-* `buffererror`
-* `childprocesserror`
-* `connectionabortederror`
-* `connectionrefusederror`
-* `connectionreseterror`
-* `interruptederror`
-* `isadirectoryerror`
-* `ioerror`
-* `importerror`
-* `indentationerror`
-* `keyerror`
-* `lookuperror`
-* `modulenotfounderror`
+-   `indexerror`
+-   `environmenterror`
+-   `eoferror`
+-   `oserror`
+-   `processlookuperror`
+-   `fileexistserror`
+-   `filenotfounderror`
+-   `floatingpointerror`
+-   `recursionerror`
+-   `referenceerror`
+-   `runtimeerror`
+-   `arithmeticerror`
+-   `assertionerror`
+-   `attributeerror`
+-   `baseexception`
+-   `blockingioerror`
+-   `brokenpipeerror`
+-   `buffererror`
+-   `childprocesserror`
+-   `connectionabortederror`
+-   `connectionrefusederror`
+-   `connectionreseterror`
+-   `interruptederror`
+-   `isadirectoryerror`
+-   `ioerror`
+-   `importerror`
+-   `indentationerror`
+-   `keyerror`
+-   `lookuperror`
+-   `modulenotfounderror`
 
+<!-- prettier-ignore-start -->
 !!! warning "Directly Using v2.0.0"
     I strongly suggest you don't use v2.0.0, instead
     opt for v2.0.1 or higher. v2.0.0 has broken links
     to documentation, and it helps for users to know
     what to read for more information about the library.
+<!-- prettier-ignore-end -->
 
 ## Related Documents
 
 You can read the proposals written for this project here:
 
-* [PDF](/proposals/lcpy/lcpy_project_proposal.pdf)
-* [RTF (Rich Text Format)](/proposals/lcpy/lcpy_project_proposal.rtf)
-* [EPUB](/proposals/lcpy/lcpy_project_proposal.epub)
-* [DOCX (Microsoft Word Document)](/proposals/lcpy/lcpy_project_proposal.docx)
-* [ODT (OpenDocument Format)](/proposals/lcpy/lcpy_project_proposal.odt)
+-   [PDF](/proposals/lcpy/lcpy_project_proposal.pdf)
+-   [RTF (Rich Text Format)](/proposals/lcpy/lcpy_project_proposal.rtf)
+-   [EPUB](/proposals/lcpy/lcpy_project_proposal.epub)
+-   [DOCX (Microsoft Word Document)](/proposals/lcpy/lcpy_project_proposal.docx)
+-   [ODT (OpenDocument Format)](/proposals/lcpy/lcpy_project_proposal.odt)
 
 ## Source
 

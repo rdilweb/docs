@@ -1,55 +1,59 @@
 site_name: RDIL Docs
 
 theme:
-  name: 'material'
-  palette:
-    primary: 'cyan'
-    accent: 'indigo'
-  favicon: /favicon.ico
-  icon:
-    repo: fontawesome/brands/github
-  logo: assets/images/34555510.png
+    name: "material"
+    palette:
+        primary: "cyan"
+        accent: "indigo"
+    favicon: /favicon.ico
+    icon:
+        repo: fontawesome/brands/github
+    logo: assets/images/rdil-logo.png
+    font: false
+    features:
+        - navigation.instant
 
-repo_name: 'rdilweb/docs'
-repo_url: 'https://github.com/rdilweb/docs'
+repo_name: "rdilweb/docs"
+repo_url: "https://github.com/rdilweb/docs"
 
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shortener: true
-      repo_url_shorthand: true
-      social_url_shorthand: true
-      user: rdilweb
-      repo: docs
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed
+    - markdown.extensions.admonition
+    - markdown.extensions.codehilite:
+          guess_lang: false
+    - markdown.extensions.def_list
+    - markdown.extensions.meta
+    - markdown.extensions.toc:
+          permalink: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shortener: true
+          repo_url_shorthand: true
+          social_url_shorthand: true
+          user: rdilweb
+          repo: docs
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tabbed
 
 plugins:
-  - search
-  - git-revision-date-localized:
-      type: timeago
-  - minify:
-      minify_html: true
-  - mkdocstrings
-  - progress
+    - search
+    - git-revision-date-localized:
+          type: timeago
+    - minify:
+          minify_html: true
+    - mkdocstrings
+    - progress
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -58,53 +62,52 @@ copyright: Copyright (©) Reece Dunham 2019-present.
 remote_branch: master
 
 extra:
-  social:
-    - icon: 'fontawesome/solid/home'
-      link: 'https://rdil.rocks/'
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/rdil/'
-    - icon: 'fontawesome/brands/gitlab'
-      link: 'https://gitlab.com/rdil/'
-    - icon: 'fontawesome/brands/twitter'
-      link: 'https://twitter.com/rdil_pickle/'
+    social:
+        - icon: "fontawesome/solid/home"
+          link: "https://rdil.rocks/"
+        - icon: "fontawesome/brands/github"
+          link: "https://github.com/rdil/"
+        - icon: "fontawesome/brands/gitlab"
+          link: "https://gitlab.com/rdil/"
+        - icon: "fontawesome/brands/twitter"
+          link: "https://twitter.com/rdil_pickle/"
 
 extra_css:
-  - assets/stylesheets/docstrings.min.css
+    - assets/stylesheets/docstrings.css
+    - assets/stylesheets/font.css
 
 nav:
-  - Home: index.md
-  - API: api.md
-  - Libraries:
-    - area4: libraries/area4.md
-    - bluejay:
-      - Introduction: libraries/bluejay/index.md
-      - discord-sentry-reporting: libraries/bluejay/discord-sentry-reporting.md
-      - flask-rest-error-handling: libraries/bluejay/flask-rest-error-handling.md
-      - joinstring: libraries/bluejay/joinstring.md
-    - filehandlers:
-        - Home: libraries/filehandlers/index.md
-        - "API Reference": libraries/filehandlers/api.md
-    - intutils:
-        - Home: libraries/intutils/index.md
-        - "API Reference": libraries/intutils/api.md
-    - lcpy: libraries/lcpy.md
-    - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
-    - "parse-repr": libraries/parse-repr.md
-    - PickleCore: libraries/picklecore.md
-    - "Static Server": libraries/static-server-rdil.md
-  - Specifications:
-    - DNSR: specs/dnsr.md
-    - "Tar Command": specs/tar.md
-  - Tutorials:
-    - "better-wsfull": tutorials/better-wsfull/index.md
-    - "Cirrus Builder": tutorials/cirrusbuilder/index.md
-  - Javadocs: javadocs/index.md
-  - About:
-    - Me: about/me.md
-    - RDILWeb: about/rdilweb.md
-    - "Support Policy": about/support-policy.md
-    - "Code of Conduct": CODE_OF_CONDUCT.md
-    - "Security Policy": SECURITY.md
-  - Archive:
-    - Perf: archive/perf.md
-  - "Docs License": LICENSE.md
+    - Home: index.md
+    - API: api.md
+    - Libraries:
+          - area4: libraries/area4.md
+          - bluejay:
+                - Introduction: libraries/bluejay/index.md
+                - discord-sentry-reporting: libraries/bluejay/discord-sentry-reporting.md
+                - flask-rest-error-handling: libraries/bluejay/flask-rest-error-handling.md
+                - joinstring: libraries/bluejay/joinstring.md
+          - filehandlers:
+                - Home: libraries/filehandlers/index.md
+                - "API Reference": libraries/filehandlers/api.md
+          - intutils:
+                - Home: libraries/intutils/index.md
+                - "API Reference": libraries/intutils/api.md
+          - lcpy: libraries/lcpy.md
+          - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
+          - "parse-repr": libraries/parse-repr.md
+          - PickleCore: libraries/picklecore.md
+          - "Static Server": libraries/static-server-rdil.md
+    - Specifications:
+          - DNSR: specs/dnsr.md
+          - "Tar Command": specs/tar.md
+    - Tutorials:
+          - "better-wsfull": tutorials/better-wsfull/index.md
+          - "Cirrus Builder": tutorials/cirrusbuilder/index.md
+    - Javadocs: javadocs/index.md
+    - About:
+          - Me: about/me.md
+          - RDILWeb: about/rdilweb.md
+          - "Support Policy": about/support-policy.md
+          - "Code of Conduct": CODE_OF_CONDUCT.md
+          - "Security Policy": SECURITY.md
+    - "Docs License": LICENSE.md
