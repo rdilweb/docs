@@ -12,6 +12,7 @@ theme:
     font: false
     features:
         - navigation.instant
+    custom_dir: docs
 
 repo_name: "rdilweb/docs"
 repo_url: "https://github.com/rdilweb/docs"
@@ -31,7 +32,6 @@ markdown_extensions:
     - pymdownx.emoji:
           emoji_index: !!python/name:materialx.emoji.twemoji
           emoji_generator: !!python/name:materialx.emoji.to_svg
-    - pymdownx.inlinehilite
     - pymdownx.keys
     - pymdownx.magiclink:
           repo_url_shortener: true
