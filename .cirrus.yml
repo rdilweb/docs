@@ -5,12 +5,11 @@ Deploy_task:
     only_if: $CIRRUS_BRANCH == 'master'
     env:
         DEPLOY_TOKEN: ENCRYPTED[6b812d37d9776bfeecfe90a09011c2d78cc5a6a1f48f4a64ca2164e00f0271db6a9cea6ca0433d9652ca27a4e221a0c8]
-    container:
-        image: ghcr.io/squidfunk/mkdocs-material-insiders:latest
-        registry_config: ENCRYPTED[8f55a0a342f1b39fe3726cd8e8693793d4dbcdeaaa55c417fe4d27b52c1b430a8302a40d0b9174a07f5b8f99e8b427ae]
+        FETCH_TOKEN: ENCRYPTED[672acd1d9f14172fe2491fd1feae919679585cc4e33a3cca08399fec685e96e9a858f122b1150856dbaec0ddd855d575]
     install_dependencies_script: |
         python3 -m pip install --upgrade pip
-        python3 -m pip install --upgrade -r requirements-production.txt
+        python3 -m pip install --upgrade -r requirements.txt
+        python3 -m pip install --upgrade https://deploy%40rdil.rocks:${FETCH_TOKEN}@rdil.mycloudrepo.io/repositories/backend/mkdocs-material/mkdocs-material-6.1.6+insiders.1.11.1.tar.gz
     deploy_script: |
         git config --global user.name "Cirrus CI"
         git config --global user.name "deploy@rdil.rocks"
@@ -22,7 +21,7 @@ task:
     only_if: $CIRRUS_PR != ""
     install_dependencies_script: |
         python3 -m pip install --upgrade pip
-        python3 -m pip install --upgrade -r requirements.txt
+        python3 -m pip install --upgrade -r requirements-dev.txt
     build_script: |
         mkdocs build
     deploy_preview_artifacts:
