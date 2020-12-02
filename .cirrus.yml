@@ -4,7 +4,7 @@ container:
 Deploy_task:
     only_if: $CIRRUS_BRANCH == 'master'
     env:
-        DEPLOY_TOKEN: ENCRYPTED[!2e1b3879f879c57eefa69d7b97272ff580fe771b21acd3ab5ccadd70942c21c717435b2756aa270c4dc960009a6fd03c!]
+        DEPLOY_TOKEN: ENCRYPTED[6b812d37d9776bfeecfe90a09011c2d78cc5a6a1f48f4a64ca2164e00f0271db6a9cea6ca0433d9652ca27a4e221a0c8]
     container:
         image: ghcr.io/squidfunk/mkdocs-material-insiders:latest
         registry_config: ENCRYPTED[8f55a0a342f1b39fe3726cd8e8693793d4dbcdeaaa55c417fe4d27b52c1b430a8302a40d0b9174a07f5b8f99e8b427ae]
