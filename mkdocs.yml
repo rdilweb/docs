@@ -3,8 +3,18 @@ site_name: RDIL Docs
 theme:
     name: "material"
     palette:
-        primary: "cyan"
-        accent: "indigo"
+        - scheme: default
+          primary: cyan
+          accent: indigo
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light theme
+        - scheme: slate
+          primary: cyan
+          accent: indigo
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
     favicon: /favicon.ico
     icon:
         repo: fontawesome/brands/github
