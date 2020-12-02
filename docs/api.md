@@ -27,7 +27,6 @@ To prevent abuse, the server's source is no longer public.
 
 ## Privacy Policy
 
-!!! warning
 These details only apply to `backend.rdil.rocks`.
 
 When you make a request to the API, your request is processed by [Cloudflare](https://cloudflare.com/privacypolicy/), and then us.
