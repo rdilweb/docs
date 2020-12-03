@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/assets/fonts/roboto-400i.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/assets/fonts/roboto-300.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/assets/fonts/roboto-400.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/assets/fonts/roboto-700.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/roboto-mono-400.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+        U+2215, U+FEFF, U+FFFD;
+}
+
+body,
+input {
+    font-family: "Roboto", -apple-system, Helvetica, Arial, sans-serif;
+}
+
+pre,
+code,
+kbd {
+    font-family: "Roboto Mono", SFMono-Regular, Consolas, Menlo, monospace;
+}
+
+/* Indentation. */
+div.doc-contents:not(.first) {
+    padding-left: 25px;
+    border-left: 2px solid rgba(230, 230, 230);
+    margin-bottom: 80px;
+}
+
+/* Don't capitalize names. */
+h5.doc-heading {
+    text-transform: none !important;
+}
+
+/* Don't use vertical space on hidden ToC entries. */
+h6.hidden-toc {
+    margin: 0 !important;
+    position: relative;
+    top: -70px;
+}
+
+h6.hidden-toc::before {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Don't show permalink of hidden ToC entries. */
+h6.hidden-toc a.headerlink {
+    display: none;
+}
+
+/* Avoid breaking parameters name, etc. in table cells. */
+td code {
+    word-break: normal !important;
+}
+
+/* For pieces of Markdown rendered in table cells. */
+td p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+/*
+ * Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to
+ * deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ * sell copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
+ */
+
+/* Admonition and details */
+.md-typeset .admonition,
+.md-typeset details {
+    border: none;
+    transition: box-shadow 400ms;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05),
+        0 0.025rem 0.05rem rgba(0, 0, 0, 0.15);
+}
+
+/* Admonition and details on hover */
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1),
+        0 0.025rem 0.05rem rgba(0, 0, 0, 0.15);
+}
+
+/* Details in closed state */
+.md-typeset details:not([open]) {
+    transition-duration: 0s;
+    box-shadow: none;
+}
+
+/* Details title in closed state */
+.md-typeset details:not([open]) > summary {
+    border-radius: 1rem;
+}
+
+/* Admonition title */
+.md-typeset .admonition-title {
+    padding-right: 1rem;
+}
+
+/* Admonition and details title */
+.md-typeset .admonition-title,
+.md-typeset summary {
+    position: relative;
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 0.7rem;
+    border-radius: 1rem;
+    border-left: none;
+}

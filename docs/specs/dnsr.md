@@ -1,12 +1,12 @@
 # DNSR Specification
 
-DNSR is a unified format for displaying DNS records in a clean way.
-
-!!! tip "Format"
-You can really use any format for DNSR, but we recommend the use of
-[TOML](https://github.com/toml-lang/toml/) for its features.
+DNSR is a specification for displaying DNS records in a clean way.
 
 <!-- prettier-ignore-start -->
+!!! tip "Format"
+    You can really use any format for DNSR, but we recommend the use of
+    [TOML](https://github.com/toml-lang/toml/) for its features.
+
 !!! warning "Provider-specific fields"
     Certain fields listed here are **only** for a certain provider or set of providers.
     They will all start with `{PROVIDER NAME}_`, _and should be ommitted if you don't use that

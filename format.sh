@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/.bashrc
+
 # todo: can we find a neater way to do this?
 
 npm i -g prettier

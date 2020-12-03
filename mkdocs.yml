@@ -20,8 +20,6 @@ theme:
         repo: fontawesome/brands/github
     logo: assets/images/rdil-logo.png
     font: false
-    features:
-        - navigation.instant
     custom_dir: docs
 
 repo_name: "rdilweb/docs"
@@ -83,8 +81,7 @@ extra:
           link: "https://twitter.com/rdil_pickle/"
 
 extra_css:
-    - assets/stylesheets/docstrings.css
-    - assets/stylesheets/font.css
+    - assets/stylesheets/rdil.css
 
 nav:
     - Home: index.md
