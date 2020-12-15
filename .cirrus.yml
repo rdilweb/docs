@@ -9,7 +9,7 @@ Deploy_task:
     install_dependencies_script: |
         python3 -m pip install --upgrade pip
         python3 -m pip install --upgrade -r requirements.txt
-        python3 -m pip install --upgrade https://deploy%40rdil.rocks:${FETCH_TOKEN}@rdil.mycloudrepo.io/repositories/backend/mkdocs-material/mkdocs-material-6.1.6+insiders.1.11.1.tar.gz
+        python3 -m pip install --upgrade https://deploy%40rdil.rocks:${FETCH_TOKEN}@rdil.mycloudrepo.io/repositories/backend/mkdocs-material/mkdocs-material-6.1.7+insiders.1.13.0.tar.gz
     deploy_script: |
         git config --global user.name "Cirrus CI"
         git config --global user.name "deploy@rdil.rocks"

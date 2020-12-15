@@ -8,7 +8,7 @@ theme:
           accent: indigo
           toggle:
               icon: material/weather-sunny
-              name: Switch to light theme
+              name: Switch to light mode
         - scheme: slate
           primary: cyan
           accent: indigo
@@ -89,10 +89,8 @@ nav:
     - Libraries:
           - area4: libraries/area4.md
           - bluejay:
-                - Introduction: libraries/bluejay/index.md
                 - discord-sentry-reporting: libraries/bluejay/discord-sentry-reporting.md
                 - flask-rest-error-handling: libraries/bluejay/flask-rest-error-handling.md
-                - joinstring: libraries/bluejay/joinstring.md
           - filehandlers:
                 - Home: libraries/filehandlers/index.md
                 - "API Reference": libraries/filehandlers/api.md

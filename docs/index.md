@@ -10,6 +10,9 @@ Hello! Welcome to the RDIL Docs. Here, you can learn insights into my projects. 
 <a href="/api" title="Public API" class="md-button md-button--primary">
     Public API
 </a>
+<a href="/libraries" title="Libraries" class="md-button md-button--primary">
+    Libraries
+</a>
 <a href="/javadocs" title="Javadocs" class="md-button md-button--primary">
     Javadocs
 </a>
