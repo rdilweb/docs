@@ -1,4 +1,3 @@
 User-agent: *
-Allow: *
-Disallow: 
+Disallow: * 
 Sitemap: https://docs.rdil.rocks/sitemap.xml

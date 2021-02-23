@@ -1,3 +1,0 @@
-# `intutils` API Reference
-
-::: intutils

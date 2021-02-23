@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"rocks.rdil.simpleconfig","l":"ConfigurationSystem"},{"p":"rocks.rdil.simpleconfig","l":"GsonExt"},{"p":"rocks.rdil.simpleconfig","l":"Option"}]
