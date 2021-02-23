@@ -73,6 +73,11 @@ plugins:
               "libraries/parse-repr.md": "https://rdil.rocks/docs/libraries/parse-repr"
               "specs/dnsr.md": "https://rdil.rocks/docs/specifications/dnsr"
               "SECURITY.md": "https://rdil.rocks/docs/security"
+              "about/me.md": "https://rdil.rocks/docs/about/me"
+              "about/rdilweb.md": "https://rdil.rocks/docs/about/rdilweb"
+              "libraries/static-server-rdil.md": "https://rdil.rocks/docs/libraries/static-server-rdil"
+              "libraries/mkdocs-plugin-progress.md": "https://rdil.rocks/docs/libraries/mkdocs-plugin-progress"
+              "about/support-policy.md": "https://rdil.rocks/docs/support-policy"
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -95,19 +100,12 @@ extra_css:
     - assets/stylesheets/rdil.css
 
 nav:
-    - Home: index.md
     - Libraries:
-          - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
-          - "parse-repr": libraries/parse-repr.md
           - PickleCore: libraries/picklecore.md
-          - "Static Server": libraries/static-server-rdil.md
     - Specifications:
           - "Tar Command": specs/tar.md
     - Tutorials:
           - "better-wsfull": tutorials/better-wsfull/index.md
           - "Cirrus Builder": tutorials/cirrusbuilder/index.md
     - About:
-          - Me: about/me.md
-          - RDILWeb: about/rdilweb.md
-          - "Support Policy": about/support-policy.md
           - "Code of Conduct": CODE_OF_CONDUCT.md
