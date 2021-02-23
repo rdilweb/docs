@@ -37,9 +37,6 @@ markdown_extensions:
           smart_enable: all
     - pymdownx.critic
     - pymdownx.details
-    - pymdownx.emoji:
-          emoji_index: !!python/name:materialx.emoji.twemoji
-          emoji_generator: !!python/name:materialx.emoji.to_svg
     - pymdownx.keys
     - pymdownx.magiclink:
           repo_url_shortener: true
@@ -60,8 +57,10 @@ plugins:
           type: timeago
     - minify:
           minify_html: true
-    - mkdocstrings
     - progress
+    - redirects:
+          redirect_maps:
+              "libraries/lcpy": "https://rdil.rocks/docs/lcpy"
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -97,7 +96,6 @@ nav:
           - intutils:
                 - Home: libraries/intutils/index.md
                 - "API Reference": libraries/intutils/api.md
-          - lcpy: libraries/lcpy.md
           - "mkdocs-plugin-progress": libraries/mkdocs-plugin-progress.md
           - "parse-repr": libraries/parse-repr.md
           - PickleCore: libraries/picklecore.md
