@@ -29,14 +29,12 @@ markdown_extensions:
     - markdown.extensions.admonition
     - markdown.extensions.codehilite:
           guess_lang: false
-    - markdown.extensions.def_list
     - markdown.extensions.meta
     - markdown.extensions.toc:
           permalink: true
     - pymdownx.betterem:
           smart_enable: all
     - pymdownx.critic
-    - pymdownx.details
     - pymdownx.keys
     - pymdownx.magiclink:
           repo_url_shortener: true
@@ -49,12 +47,8 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tasklist:
           custom_checkbox: true
-    - pymdownx.tabbed
 
 plugins:
-    - search
-    - git-revision-date-localized:
-          type: timeago
     - minify:
           minify_html: true
     - progress
