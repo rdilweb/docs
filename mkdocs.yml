@@ -78,6 +78,9 @@ plugins:
               "libraries/static-server-rdil.md": "https://rdil.rocks/docs/libraries/static-server-rdil"
               "libraries/mkdocs-plugin-progress.md": "https://rdil.rocks/docs/libraries/mkdocs-plugin-progress"
               "about/support-policy.md": "https://rdil.rocks/docs/support-policy"
+              "license.md": "https://rdil.rocks/docs/license"
+              "CODE_OF_CONDUCT.md": "https://rdil.rocks/docs/code-of-conduct"
+              "libraries/picklecore.md": "https://rdil.rocks/docs/libraries/picklecore"
 
 site_description: Documentation for RDIL's services and libraries.
 site_url: https://docs.rdil.rocks
@@ -100,12 +103,8 @@ extra_css:
     - assets/stylesheets/rdil.css
 
 nav:
-    - Libraries:
-          - PickleCore: libraries/picklecore.md
     - Specifications:
           - "Tar Command": specs/tar.md
     - Tutorials:
           - "better-wsfull": tutorials/better-wsfull/index.md
           - "Cirrus Builder": tutorials/cirrusbuilder/index.md
-    - About:
-          - "Code of Conduct": CODE_OF_CONDUCT.md
