@@ -21,6 +21,7 @@ theme:
     logo: assets/images/rdil-logo.png
     font: false
     custom_dir: docs
+    custom_dir: overrides
 
 repo_name: "rdilweb/docs"
 repo_url: "https://github.com/rdilweb/docs"
@@ -30,23 +31,6 @@ markdown_extensions:
     - markdown.extensions.codehilite:
           guess_lang: false
     - markdown.extensions.meta
-    - markdown.extensions.toc:
-          permalink: true
-    - pymdownx.betterem:
-          smart_enable: all
-    - pymdownx.critic
-    - pymdownx.keys
-    - pymdownx.magiclink:
-          repo_url_shortener: true
-          repo_url_shorthand: true
-          social_url_shorthand: true
-          user: rdilweb
-          repo: docs
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist:
-          custom_checkbox: true
 
 plugins:
     - minify:
